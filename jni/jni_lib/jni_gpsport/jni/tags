@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+InitPort	otherport.cpp	/^void Otherport::InitPort()$/;"	f	class:Otherport
+InitPort	testport.cpp	/^void TestPort::InitPort()$/;"	f	class:TestPort
+Java_com_example_pthread_Ptrhead_cjjtest	test.cpp	/^jint Java_com_example_pthread_Ptrhead_cjjtest$/;"	f
+Java_com_example_pthread_Ptrhead_othertest	test.cpp	/^jint Java_com_example_pthread_Ptrhead_othertest (JNIEnv *env, jclass thiz)$/;"	f
+LOCAL_C_INCLUDES	Android.mk	/^LOCAL_C_INCLUDES := $(LOCAL_PATH)\/include \\$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE    := itcpthread $/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOGD	otherport.cpp	12;"	d	file:
+LOGD	test.cpp	8;"	d	file:
+LOGD	testport.cpp	11;"	d	file:
+LOGE	otherport.cpp	13;"	d	file:
+LOGE	test.cpp	9;"	d	file:
+LOGE	testport.cpp	12;"	d	file:
+LOGI	otherport.cpp	11;"	d	file:
+LOGI	test.cpp	7;"	d	file:
+LOGI	testport.cpp	10;"	d	file:
+Otherport	otherport.cpp	/^Otherport::Otherport(void){$/;"	f	class:Otherport
+Otherport	otherport.h	/^class Otherport{$/;"	c
+TAG	otherport.cpp	/^static const char *TAG="Acanoe";$/;"	v	file:
+TAG	test.cpp	/^static const char *TAG="Acanoe";$/;"	v	file:
+TAG	testport.cpp	/^static const char *TAG="Acanoe";$/;"	v	file:
+TestPort	testport.cpp	/^TestPort::TestPort(void){$/;"	f	class:TestPort
+TestPort	testport.h	/^class TestPort{$/;"	c
+lntmutex	testport.cpp	/^pthread_mutex_t lntmutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+ntcond	otherport.cpp	/^pthread_cond_t ntcond = PTHREAD_COND_INITIALIZER;$/;"	v
+ntid	otherport.h	/^	pthread_t ntid;$/;"	m	class:Otherport
+ntid	testport.h	/^	pthread_t ntid;$/;"	m	class:TestPort
+ntmutex	otherport.cpp	/^pthread_mutex_t ntmutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+thr_fn	otherport.cpp	/^void* Otherport::thr_fn(void *arg)$/;"	f	class:Otherport
+thr_fn	testport.cpp	/^void* TestPort::thr_fn(void *arg)$/;"	f	class:TestPort
+tntcond	testport.cpp	/^pthread_cond_t tntcond = PTHREAD_COND_INITIALIZER;$/;"	v
+~Otherport	otherport.cpp	/^Otherport::~Otherport(void){$/;"	f	class:Otherport
+~TestPort	testport.cpp	/^TestPort::~TestPort(void){$/;"	f	class:TestPort

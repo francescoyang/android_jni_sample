@@ -1,0 +1,372 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APPMAXNU	jni/fileinfo.h	4;"	d
+BACKLOG	jni/sampleservice.c	23;"	d	file:
+BOOKMAXNU	jni/fileinfo.h	5;"	d
+CMD_APP	jni/netpthread.c	24;"	d	file:
+CMD_BOOK	jni/netpthread.c	26;"	d	file:
+CMD_IMAGE	jni/netpthread.c	21;"	d	file:
+CMD_MMS	jni/netpthread.c	25;"	d	file:
+CMD_MUSIC	jni/netpthread.c	23;"	d	file:
+CMD_SENDMESSAGE	jni/netpthread.c	28;"	d	file:
+CMD_STORAGE	jni/netpthread.c	27;"	d	file:
+CMD_VIDEO	jni/netpthread.c	22;"	d	file:
+ERROR_INFO	jni/fileinfo.h	10;"	d
+ERROR_LEN	jni/fileinfo.h	11;"	d
+ERROR_MAXNU	jni/fileinfo.h	12;"	d
+ERR_ACCEPT	jni/sockserver.h	29;"	d
+ERR_ACCEPT	jni/test/sockserver.h	29;"	d
+ERR_BIND	jni/sockserver.h	27;"	d
+ERR_BIND	jni/test/sockserver.h	27;"	d
+ERR_CONNECT	jni/sockserver.h	26;"	d
+ERR_CONNECT	jni/test/sockserver.h	26;"	d
+ERR_CREATSOCKET	jni/sockserver.h	25;"	d
+ERR_CREATSOCKET	jni/test/sockserver.h	25;"	d
+ERR_FD	jni/sockserver.h	30;"	d
+ERR_FD	jni/test/sockserver.h	30;"	d
+ERR_LINSTEN	jni/sockserver.h	28;"	d
+ERR_LINSTEN	jni/test/sockserver.h	28;"	d
+ERR_MALLOC	jni/sockserver.h	24;"	d
+ERR_MALLOC	jni/test/sockserver.h	24;"	d
+ERR_RECV	jni/sockserver.h	32;"	d
+ERR_RECV	jni/test/sockserver.h	32;"	d
+ERR_SEND	jni/sockserver.h	31;"	d
+ERR_SEND	jni/test/sockserver.h	31;"	d
+ERR_TOOMANYSOCKET	jni/sockserver.h	23;"	d
+ERR_TOOMANYSOCKET	jni/test/sockserver.h	23;"	d
+ERR_TYPE	jni/sockserver.h	35;"	d
+ERR_TYPE	jni/test/sockserver.h	35;"	d
+ERR_UDP_RECV	jni/sockserver.h	34;"	d
+ERR_UDP_RECV	jni/test/sockserver.h	34;"	d
+ERR_UDP_SEND	jni/sockserver.h	33;"	d
+ERR_UDP_SEND	jni/test/sockserver.h	33;"	d
+FREE_CLIENT	jni/sockserver.h	52;"	d
+FREE_CLIENT	jni/test/sockserver.h	52;"	d
+FREE_CLINT	jni/sockserver.h	45;"	d
+FREE_CLINT	jni/test/sockserver.h	45;"	d
+FREE_SERVER	jni/sockserver.h	44;"	d
+FREE_SERVER	jni/sockserver.h	51;"	d
+FREE_SERVER	jni/test/sockserver.h	44;"	d
+FREE_SERVER	jni/test/sockserver.h	51;"	d
+INVALIDFD	jni/sockserver.h	42;"	d
+INVALIDFD	jni/test/sockserver.h	42;"	d
+JPNETRECVTRYTIME	jni/sockserver.h	46;"	d
+JPNETRECVTRYTIME	jni/test/sockserver.h	46;"	d
+JUDGECFD	jni/sockserver.h	40;"	d
+JUDGECFD	jni/test/sockserver.h	40;"	d
+JUDGESFD	jni/sockserver.h	41;"	d
+JUDGESFD	jni/test/sockserver.h	41;"	d
+Java_com_acanoe_appmanager_Appmanager_appmanagerinit	jni/appmanager.c	/^void Java_com_acanoe_appmanager_Appmanager_appmanagerinit$/;"	f
+Java_com_acanoe_appmanager_Appmanager_exitprograme	jni/exitprograme.c	/^	jint Java_com_acanoe_appmanager_Appmanager_exitprograme$/;"	f
+Java_com_acanoe_appmanager_Appmanager_getmmsdata	jni/netpthread.c	/^	jstring Java_com_acanoe_appmanager_Appmanager_getmmsdata$/;"	f
+Java_com_acanoe_appmanager_Appmanager_getmmsnumber	jni/netpthread.c	/^	jstring Java_com_acanoe_appmanager_Appmanager_getmmsnumber$/;"	f
+Java_com_acanoe_appmanager_Appmanager_gotosend	jni/netpthread.c	/^	jint Java_com_acanoe_appmanager_Appmanager_gotosend$/;"	f
+Java_com_acanoe_appmanager_Appmanager_imageinfosend	jni/ctrlpthread.c	/^	void Java_com_acanoe_appmanager_Appmanager_imageinfosend$/;"	f
+Java_com_acanoe_appmanager_Appmanager_jnipthreadinit	jni/mainpthread.c	/^jint Java_com_acanoe_appmanager_Appmanager_jnipthreadinit$/;"	f
+Java_com_acanoe_appmanager_Appmanager_s	jni/sampleservice.c	/^jint Java_com_acanoe_appmanager_Appmanager_s$/;"	f
+Java_com_acanoe_appmanager_Appmanager_setappinfo	jni/appinfo.c	/^jint Java_com_acanoe_appmanager_Appmanager_setappinfo$/;"	f
+Java_com_acanoe_appmanager_Appmanager_setbookinfo	jni/bookinfo.c	/^jint Java_com_acanoe_appmanager_Appmanager_setbookinfo$/;"	f
+Java_com_acanoe_appmanager_Appmanager_setimageinfo	jni/imageinfo.c	/^	jint Java_com_acanoe_appmanager_Appmanager_setimageinfo$/;"	f
+Java_com_acanoe_appmanager_Appmanager_setmmsinfo	jni/mmsinfo.c	/^	jint Java_com_acanoe_appmanager_Appmanager_setmmsinfo$/;"	f
+Java_com_acanoe_appmanager_Appmanager_setmusicinfo	jni/musicinfo.c	/^	jint Java_com_acanoe_appmanager_Appmanager_setmusicinfo$/;"	f
+Java_com_acanoe_appmanager_Appmanager_setstorageinfo	jni/storage.c	/^	jint Java_com_acanoe_appmanager_Appmanager_setstorageinfo$/;"	f
+Java_com_acanoe_appmanager_Appmanager_setvideoinfo	jni/videoinfo.c	/^	jint Java_com_acanoe_appmanager_Appmanager_setvideoinfo$/;"	f
+Java_com_acanoe_appmanager_Appmanager_startservice	jni/service.c	/^	void Java_com_acanoe_appmanager_Appmanager_startservice$/;"	f
+Java_com_acanoe_appmanager_Appmanager_whatyouwant	jni/netpthread.c	/^	jint Java_com_acanoe_appmanager_Appmanager_whatyouwant$/;"	f
+Java_com_example_pthread_Ptrhead_createpthread	jni/pthread.c	/^	jint Java_com_example_pthread_Ptrhead_createpthread$/;"	f
+Java_com_example_pthread_Ptrhead_exitpthread	jni/pthread.c	/^	jint Java_com_example_pthread_Ptrhead_exitpthread$/;"	f
+Java_com_example_pthread_Ptrhead_runpthread	jni/pthread.c	/^	jint Java_com_example_pthread_Ptrhead_runpthread$/;"	f
+LOCAL_C_INCLUDES	jni/Android.mk	/^LOCAL_C_INCLUDES := $(LOCAL_PATH)\/include \\$/;"	m
+LOCAL_MODULE	jni/Android.mk	/^LOCAL_MODULE    := appmanager $/;"	m
+LOCAL_PATH	jni/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_SRC_FILES	jni/Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOGD	jni/appmanager.c	9;"	d	file:
+LOGD	jni/fileinfo.h	16;"	d
+LOGD	jni/loginfo.h	6;"	d
+LOGD	jni/mainpthread.c	15;"	d	file:
+LOGD	jni/pthread.c	10;"	d	file:
+LOGD	jni/sampleservice.c	17;"	d	file:
+LOGD	jni/service.c	12;"	d	file:
+LOGD	jni/sockserver.c	15;"	d	file:
+LOGE	jni/appmanager.c	10;"	d	file:
+LOGE	jni/fileinfo.h	17;"	d
+LOGE	jni/loginfo.h	7;"	d
+LOGE	jni/mainpthread.c	16;"	d	file:
+LOGE	jni/pthread.c	11;"	d	file:
+LOGE	jni/sampleservice.c	18;"	d	file:
+LOGE	jni/service.c	13;"	d	file:
+LOGE	jni/sockserver.c	16;"	d	file:
+LOGI	jni/appmanager.c	8;"	d	file:
+LOGI	jni/fileinfo.h	15;"	d
+LOGI	jni/loginfo.h	5;"	d
+LOGI	jni/mainpthread.c	14;"	d	file:
+LOGI	jni/pthread.c	9;"	d	file:
+LOGI	jni/sampleservice.c	16;"	d	file:
+LOGI	jni/service.c	11;"	d	file:
+LOGI	jni/sockserver.c	14;"	d	file:
+MAXDATASIZE	jni/sampleservice.c	24;"	d	file:
+MAXERRNO	jni/sockserver.h	37;"	d
+MAXERRNO	jni/test/sockserver.h	37;"	d
+MAXNAME	jni/fileinfo.h	7;"	d
+MAXNU	jni/fileinfo.h	3;"	d
+MAXPATH	jni/fileinfo.h	8;"	d
+MAXSIZE	jni/fileinfo.h	6;"	d
+MAXSOCKETNO	jni/sockserver.h	39;"	d
+MAXSOCKETNO	jni/test/sockserver.h	39;"	d
+MYPORT	jni/sampleservice.c	22;"	d	file:
+OPSTARTDATA	jni/putpackctrl.c	10;"	d	file:
+PACKET_LENG	jni/sockserver.h	61;"	d
+PACKET_LENG	jni/test/sockserver.h	61;"	d
+RECV_CMD	jni/netpthread.c	/^char RECV_CMD = 0;$/;"	v
+REGET	jni/netpthread.c	/^int REGET  = 0;			$/;"	v
+REVERSE16	jni/sockserver.h	62;"	d
+REVERSE16	jni/test/sockserver.h	62;"	d
+REVERSE32	jni/sockserver.h	63;"	d
+REVERSE32	jni/test/sockserver.h	63;"	d
+SEND_CMD	jni/netpthread.c	/^int SEND_CMD = -1;$/;"	v
+SIGN	jni/netpthread.c	/^int SIGN = 0;$/;"	v
+SIG_START	jni/netpthread.c	/^char SIG_START = 0x77;$/;"	v
+SIZE	jni/netpthread.c	/^int SIZE = 0;$/;"	v
+SUCCEESS	jni/sockserver.h	22;"	d
+SUCCEESS	jni/test/sockserver.h	22;"	d
+TAG	jni/appmanager.c	/^static const char *TAG="Acanoe";$/;"	v	file:
+TAG	jni/fileinfo.h	/^static const char *TAG="JNI";$/;"	v
+TAG	jni/loginfo.h	/^static const char *TAG="JNI";$/;"	v
+TAG	jni/mainpthread.c	/^static const char *TAG="JNI";$/;"	v	file:
+TAG	jni/pthread.c	/^static const char *TAG="Acanoe";$/;"	v	file:
+TAG	jni/sampleservice.c	/^static const char *TAG="Acanoe";$/;"	v	file:
+TAG	jni/service.c	/^static const char *TAG="JNI";$/;"	v	file:
+TAG	jni/sockserver.c	/^static const char *TAG="Acanoe";$/;"	v	file:
+__allappnfo	jni/fileinfo.h	/^typedef struct __allappnfo{$/;"	s
+__allbookinfo	jni/fileinfo.h	/^typedef struct __allbookinfo{$/;"	s
+__allinfo	jni/fileinfo.h	/^typedef struct __allinfo{$/;"	s
+__allmmsinfo	jni/fileinfo.h	/^typedef struct __allmmsinfo{$/;"	s
+__appinfo	jni/fileinfo.h	/^typedef struct __appinfo{$/;"	s
+__bookinfo	jni/fileinfo.h	/^typedef struct __bookinfo{$/;"	s
+__cmr_msglib	jni/sockserver.h	/^typedef struct __cmr_msglib{$/;"	s
+__cmr_msglib	jni/test/sockserver.h	/^typedef struct __cmr_msglib{$/;"	s
+__dirline	jni/fileinfo.h	/^typedef struct __dirline{$/;"	s
+__dirlist	jni/fileinfo.h	/^typedef struct __dirlist{$/;"	s
+__fileinfo	jni/fileinfo.h	/^typedef struct __fileinfo{$/;"	s
+__mainthread	jni/mainpthread.c	/^typedef struct __mainthread{$/;"	s	file:
+__mmsinfo	jni/fileinfo.h	/^typedef struct __mmsinfo{$/;"	s
+__msglib_errno	jni/sockserver.h	/^typedef struct __msglib_errno{$/;"	s
+__msglib_errno	jni/test/sockserver.h	/^typedef struct __msglib_errno{$/;"	s
+__netcmd	jni/service.c	/^typedef struct __netcmd{$/;"	s	file:
+__sendmessage	jni/fileinfo.h	/^typedef struct __sendmessage{$/;"	s
+__sockthread	jni/netpthread.c	/^typedef struct __sockthread{$/;"	s	file:
+__storageinfo	jni/fileinfo.h	/^typedef struct __storageinfo{$/;"	s
+acceptconnect	jni/sampleservice.c	/^void acceptconnect(void){  \/\/接受客户端连接请求函数$/;"	f
+accthread	jni/sampleservice.c	/^pthread_t accthread,recthread;$/;"	v
+accthread	jni/service.c	/^pthread_t accthread,recthread;$/;"	v
+allappinfo_t	jni/fileinfo.h	/^}allappinfo_t;$/;"	t	typeref:struct:__allappnfo
+allbookinfo_t	jni/fileinfo.h	/^}allbookinfo_t;$/;"	t	typeref:struct:__allbookinfo
+allmmsinfo_t	jni/fileinfo.h	/^}allmmsinfo_t;$/;"	t	typeref:struct:__allmmsinfo
+appattribute	jni/fileinfo.h	/^	int  appattribute;  \/\/ system app or user app$/;"	m	struct:__appinfo
+appinfo	jni/fileinfo.h	/^allappinfo_t appinfo;$/;"	v
+appinfo_t	jni/fileinfo.h	/^}appinfo_t;$/;"	t	typeref:struct:__appinfo
+appname	jni/fileinfo.h	/^	char appname[50];$/;"	m	struct:__appinfo
+apppackname	jni/fileinfo.h	/^	char apppackname[100];$/;"	m	struct:__appinfo
+apppath	jni/fileinfo.h	/^	int  apppath;		\/\/ in sdcard or phonestore$/;"	m	struct:__appinfo
+appsize	jni/fileinfo.h	/^	char appsize[16];$/;"	m	struct:__appinfo
+appversion	jni/fileinfo.h	/^	char appversion[15];$/;"	m	struct:__appinfo
+bookinfo	jni/fileinfo.h	/^allbookinfo_t bookinfo;$/;"	v
+bookinfo_t	jni/fileinfo.h	/^}bookinfo_t;$/;"	t	typeref:struct:__bookinfo
+bookname	jni/fileinfo.h	/^	char bookname[20]; $/;"	m	struct:__bookinfo
+booknumber	jni/fileinfo.h	/^	char booknumber[18];$/;"	m	struct:__bookinfo
+c10cond	jni/pthread.c	/^pthread_cond_t  c10cond;$/;"	v
+c1cond	jni/pthread.c	/^pthread_cond_t  c1cond;$/;"	v
+c2cond	jni/pthread.c	/^pthread_cond_t  c2cond;$/;"	v
+c3cond	jni/pthread.c	/^pthread_cond_t  c3cond;$/;"	v
+c4cond	jni/pthread.c	/^pthread_cond_t  c4cond;$/;"	v
+c5cond	jni/pthread.c	/^pthread_cond_t  c5cond;$/;"	v
+c6cond	jni/pthread.c	/^pthread_cond_t  c6cond;$/;"	v
+c7cond	jni/pthread.c	/^pthread_cond_t  c7cond;$/;"	v
+c8cond	jni/pthread.c	/^pthread_cond_t  c8cond;$/;"	v
+c9cond	jni/pthread.c	/^pthread_cond_t  c9cond;$/;"	v
+c_addr	jni/sockserver.h	/^	struct sockaddr_in c_addr;$/;"	m	struct:dtmsg	typeref:struct:dtmsg::sockaddr_in
+c_addr	jni/test/sockserver.h	/^	struct sockaddr_in c_addr;$/;"	m	struct:dtmsg	typeref:struct:dtmsg::sockaddr_in
+c_addrsize	jni/sockserver.h	/^	socklen_t c_addrsize;$/;"	m	struct:dtmsg
+c_addrsize	jni/test/sockserver.h	/^	socklen_t c_addrsize;$/;"	m	struct:dtmsg
+cfd	jni/sockserver.h	/^	int cfd;$/;"	m	struct:dtmsg
+cfd	jni/test/sockserver.h	/^	int cfd;$/;"	m	struct:dtmsg
+checksum	jni/putpackctrl.c	/^static unsigned  char checksum(char *data, int len)$/;"	f	file:
+child1	jni/pthread.c	/^void * child1(void *arg)$/;"	f
+child10	jni/pthread.c	/^void *child10(void *arg)$/;"	f
+child2	jni/pthread.c	/^void *child2(void *arg)$/;"	f
+child3	jni/pthread.c	/^void *child3(void *arg)$/;"	f
+child4	jni/pthread.c	/^void *child4(void *arg)$/;"	f
+child5	jni/pthread.c	/^void *child5(void *arg)$/;"	f
+child6	jni/pthread.c	/^void *child6(void *arg)$/;"	f
+child7	jni/pthread.c	/^void *child7(void *arg)$/;"	f
+child8	jni/pthread.c	/^void *child8(void *arg)$/;"	f
+child9	jni/pthread.c	/^void *child9(void *arg)$/;"	f
+close_socket	jni/netpthread.c	/^void close_socket()$/;"	f
+cmd	jni/service.c	/^	volatile enum netcmdval cmd;$/;"	m	struct:__netcmd	typeref:enum:__netcmd::netcmdval	file:
+cmdmutex	jni/service.c	/^	pthread_mutex_t  cmdmutex;$/;"	m	struct:__netcmd	file:
+cmr_msglib_t	jni/sockserver.h	/^}cmr_msglib_t;$/;"	t	typeref:struct:__cmr_msglib
+cmr_msglib_t	jni/test/sockserver.h	/^}cmr_msglib_t;$/;"	t	typeref:struct:__cmr_msglib
+compake	jni/putpackctrl.c	/^compake()$/;"	f
+count	jni/fileinfo.h	/^	int count;$/;"	m	struct:__allappnfo
+count	jni/fileinfo.h	/^	int count;$/;"	m	struct:__allbookinfo
+count	jni/fileinfo.h	/^	int count;$/;"	m	struct:__allinfo
+count	jni/fileinfo.h	/^	int count;$/;"	m	struct:__allmmsinfo
+data	jni/netpthread.c	/^char data[1024*200];$/;"	v
+dirline_t	jni/fileinfo.h	/^}dirline_t;$/;"	t	typeref:struct:__dirline
+dirlist_t	jni/fileinfo.h	/^}dirlist_t;$/;"	t	typeref:struct:__dirlist
+dirname	jni/fileinfo.h	/^	char dirname[200];$/;"	m	struct:__dirlist
+dtcmr_accept	jni/sockserver.c	/^int dtcmr_accept(int fd)$/;"	f
+dtcmr_accept	jni/test/sockserver.c	/^int dtcmr_accept(int fd)$/;"	f
+dtcmr_client_creat	jni/sockserver.c	/^int dtcmr_client_creat(char *serverip, short port, int type)$/;"	f
+dtcmr_client_creat	jni/test/sockserver.c	/^int dtcmr_client_creat(char *serverip, short port, int type)$/;"	f
+dtcmr_free	jni/sockserver.c	/^void dtcmr_free(int fd)$/;"	f
+dtcmr_free	jni/test/sockserver.c	/^void dtcmr_free(int fd)$/;"	f
+dtcmr_msg_t	jni/sockserver.h	/^}dtcmr_msg_t;$/;"	t	typeref:struct:dtmsg
+dtcmr_msg_t	jni/test/sockserver.h	/^}dtcmr_msg_t;$/;"	t	typeref:struct:dtmsg
+dtcmr_rcvtimeout	jni/sockserver.c	/^static int dtcmr_rcvtimeout(int fd, char *buf, int leng, struct timeval *timeout)$/;"	f	file:
+dtcmr_rcvtimeout	jni/test/sockserver.c	/^static int dtcmr_rcvtimeout(int fd, char *buf, int leng, struct timeval *timeout)$/;"	f	file:
+dtcmr_recv	jni/sockserver.c	/^int dtcmr_recv(int fd, char *buf, int leng) $/;"	f
+dtcmr_recv	jni/test/sockserver.c	/^int dtcmr_recv(int fd, char *buf, int leng) $/;"	f
+dtcmr_recv_timeout	jni/sockserver.c	/^int dtcmr_recv_timeout(int fd, char *buf, int leng, struct timeval *timeout) $/;"	f
+dtcmr_recv_timeout	jni/test/sockserver.c	/^int dtcmr_recv_timeout(int fd, char *buf, int leng, struct timeval *timeout) $/;"	f
+dtcmr_send	jni/sockserver.c	/^int dtcmr_send(int fd, char *buf, int leng)$/;"	f
+dtcmr_send	jni/test/sockserver.c	/^int dtcmr_send(int fd, char *buf, int leng)$/;"	f
+dtcmr_serv_creat	jni/sockserver.c	/^int dtcmr_serv_creat(short sport, int listenback, int type)$/;"	f
+dtcmr_serv_creat	jni/test/sockserver.c	/^int dtcmr_serv_creat(int sport, int listenback, int type)$/;"	f
+dtcmr_shotdown	jni/sockserver.c	/^void dtcmr_shotdown(int fd, int flags)$/;"	f
+dtcmr_shotdown	jni/test/sockserver.c	/^void dtcmr_shotdown(int fd, int flags)$/;"	f
+dtcmr_udp_recv	jni/sockserver.c	/^int dtcmr_udp_recv(int fd, char *buf, int leng) $/;"	f
+dtcmr_udp_recv	jni/test/sockserver.c	/^int dtcmr_udp_recv(int fd, char *buf, int leng) $/;"	f
+dtcmr_udp_send	jni/sockserver.c	/^int dtcmr_udp_send(int fd, char *buf, int leng)$/;"	f
+dtcmr_udp_send	jni/test/sockserver.c	/^int dtcmr_udp_send(int fd, char *buf, int leng)$/;"	f
+dtmsg	jni/sockserver.h	/^	dtcmr_msg_t *dtmsg;$/;"	m	struct:__cmr_msglib
+dtmsg	jni/sockserver.h	/^typedef struct dtmsg{$/;"	s
+dtmsg	jni/test/sockserver.h	/^	dtcmr_msg_t *dtmsg;$/;"	m	struct:__cmr_msglib
+dtmsg	jni/test/sockserver.h	/^typedef struct dtmsg{$/;"	s
+errnb	jni/sockserver.h	/^	int errnb;$/;"	m	struct:__msglib_errno
+errnb	jni/test/sockserver.h	/^	int errnb;$/;"	m	struct:__msglib_errno
+errstr	jni/sockserver.h	/^	char *errstr;$/;"	m	struct:__msglib_errno
+errstr	jni/test/sockserver.h	/^	char *errstr;$/;"	m	struct:__msglib_errno
+fileinfo_t	jni/fileinfo.h	/^}fileinfo_t;$/;"	t	typeref:struct:__fileinfo
+filename	jni/fileinfo.h	/^	char filename[50];$/;"	m	struct:__fileinfo
+filepath	jni/fileinfo.h	/^	char filepath[200];$/;"	m	struct:__fileinfo
+filesize	jni/fileinfo.h	/^	char filesize[16];$/;"	m	struct:__fileinfo
+freeresource	jni/sockserver.c	/^static inline void freeresource(int fd) $/;"	f	file:
+freeresource	jni/test/sockserver.c	/^static inline void freeresource(int fd) $/;"	f	file:
+get_info	jni/fileinfo.h	/^	appinfo_t get_info[APPMAXNU];$/;"	m	struct:__allappnfo
+get_info	jni/fileinfo.h	/^	bookinfo_t get_info[BOOKMAXNU];$/;"	m	struct:__allbookinfo
+get_info	jni/fileinfo.h	/^	dirlist_t get_info[100];$/;"	m	struct:__dirline
+get_info	jni/fileinfo.h	/^	fileinfo_t get_info[MAXNU];$/;"	m	struct:__allinfo
+get_info	jni/fileinfo.h	/^	mmsinfo_t get_info[BOOKMAXNU];$/;"	m	struct:__allmmsinfo
+getbuf	jni/netpthread.c	/^char getbuf[1024 * 2] = {0};$/;"	v
+getdata	jni/netpthread.c	/^char getdata[1024*30];$/;"	v
+getimageinfo	jni/imageinfo.c	/^void getimageinfo(char *data)$/;"	f
+getminmsglibfd	jni/sockserver.c	/^static inline int getminmsglibfd(void)$/;"	f	file:
+getminmsglibfd	jni/test/sockserver.c	/^static inline int getminmsglibfd(void)$/;"	f	file:
+getmsgliberrinfo	jni/sockserver.c	/^char *getmsgliberrinfo(int errnb)$/;"	f
+getmsgliberrinfo	jni/test/sockserver.c	/^char *getmsgliberrinfo(int errnb)$/;"	f
+handle_error	jni/sockserver.h	58;"	d
+handle_error	jni/test/sockserver.h	58;"	d
+i	jni/netpthread.c	/^int i;$/;"	v
+imageinfo	jni/fileinfo.h	/^media_t imageinfo;$/;"	v
+judgefd	jni/sockserver.c	/^static inline int judgefd(int fd, int flags)$/;"	f	file:
+judgefd	jni/test/sockserver.c	/^static inline int judgefd(int fd, int flags)$/;"	f	file:
+line	jni/fileinfo.h	/^	int line;$/;"	m	struct:__dirline
+main	jni/test/service.c	/^int main()$/;"	f
+main_pthread	jni/mainpthread.c	/^void* main_pthread(void* arg) $/;"	f
+mainthread	jni/mainpthread.c	/^static mainthread_t mainthread;$/;"	v	file:
+mainthread_t	jni/mainpthread.c	/^}mainthread_t;$/;"	t	typeref:struct:__mainthread	file:
+managerp	jni/mainpthread.c	/^	void *managerp;$/;"	m	struct:__mainthread	file:
+managerp	jni/netpthread.c	/^	void *managerp;$/;"	m	struct:__sockthread	file:
+media_t	jni/fileinfo.h	/^}media_t;$/;"	t	typeref:struct:__allinfo
+memoryAvail	jni/fileinfo.h	/^	char memoryAvail[32];		\/\/ 手机内存剩余容量$/;"	m	struct:__storageinfo
+memorySize	jni/fileinfo.h	/^	char memorySize[32];		\/\/ 手机内存总容量$/;"	m	struct:__storageinfo
+mmsbody	jni/fileinfo.h	/^	char mmsbody[1024*2];$/;"	m	struct:__mmsinfo
+mmsdata	jni/fileinfo.h	/^	char mmsdata[1024];$/;"	m	struct:__sendmessage
+mmsdate	jni/fileinfo.h	/^	char mmsdate[25];$/;"	m	struct:__mmsinfo
+mmsinfo	jni/fileinfo.h	/^allmmsinfo_t mmsinfo;$/;"	v
+mmsinfo_t	jni/fileinfo.h	/^}mmsinfo_t;$/;"	t	typeref:struct:__mmsinfo
+mmsname	jni/fileinfo.h	/^	char mmsname[20];$/;"	m	struct:__mmsinfo
+mmsnumber	jni/fileinfo.h	/^	char mmsnumber[18];$/;"	m	struct:__mmsinfo
+mmsnumber	jni/fileinfo.h	/^	char mmsnumber[18];$/;"	m	struct:__sendmessage
+msgfd	jni/sockserver.h	/^	int msgfd;$/;"	m	struct:__cmr_msglib
+msgfd	jni/test/sockserver.h	/^	int msgfd;$/;"	m	struct:__cmr_msglib
+msglib_errno_t	jni/sockserver.h	/^}msglib_errno_t;$/;"	t	typeref:struct:__msglib_errno
+msglib_errno_t	jni/test/sockserver.h	/^}msglib_errno_t;$/;"	t	typeref:struct:__msglib_errno
+msgliberr_table	jni/sockserver.c	/^msglib_errno_t msgliberr_table[] = {$/;"	v
+msgliberr_table	jni/test/sockserver.c	/^msglib_errno_t msgliberr_table[] = {$/;"	v
+msglibfd	jni/sockserver.c	/^static cmr_msglib_t msglibfd[MAXSOCKETNO];$/;"	v	file:
+msglibfd	jni/test/sockserver.c	/^static cmr_msglib_t msglibfd[MAXSOCKETNO];$/;"	v	file:
+musicinfo	jni/fileinfo.h	/^media_t musicinfo;$/;"	v
+mutex	jni/netpthread.c	/^pthread_mutex_t mutex;$/;"	v
+mutex	jni/pthread.c	/^pthread_mutex_t mutex;$/;"	v
+net_mutex	jni/netpthread.c	/^static pthread_mutex_t net_mutex;$/;"	v	file:
+net_pthread_exit	jni/netpthread.c	/^void net_pthread_exit()$/;"	f
+netcmd_t	jni/service.c	/^}netcmd_t;$/;"	t	typeref:struct:__netcmd	file:
+netsendcond	jni/netpthread.c	/^pthread_cond_t  netsendcond;$/;"	v
+new_fd	jni/netpthread.c	/^int sockfd,new_fd;$/;"	v
+new_fd	jni/sampleservice.c	/^int sockfd,new_fd;$/;"	v
+new_fd	jni/service.c	/^int sockfd,new_fd;$/;"	v
+new_fd	jni/test/service.c	/^int sockfd,new_fd;$/;"	v
+pasition	jni/fileinfo.h	/^	char pasition;$/;"	m	struct:__dirlist
+recmessage	jni/sampleservice.c	/^void recmessage(void){  \/\/接收客户端信息函数$/;"	f
+recthread	jni/sampleservice.c	/^pthread_t accthread,recthread;$/;"	v
+recthread	jni/service.c	/^pthread_t accthread,recthread;$/;"	v
+recv_buf	jni/netpthread.c	/^char  recv_buf = 0;$/;"	v
+recv_leng	jni/netpthread.c	/^int recv_leng = 0;$/;"	v
+recv_pack	jni/netpthread.c	/^recv_pack()$/;"	f
+recvmsg	jni/sockserver.h	/^	long recvmsg[PACKET_LENG];$/;"	m	struct:dtmsg
+recvmsg	jni/test/sockserver.h	/^	long recvmsg[PACKET_LENG];$/;"	m	struct:dtmsg
+recvmsgleng	jni/sockserver.h	/^	int recvmsgleng;	$/;"	m	struct:dtmsg
+recvmsgleng	jni/test/sockserver.h	/^	int recvmsgleng;	$/;"	m	struct:dtmsg
+reget	jni/netpthread.c	/^sem_t reget[10]; $/;"	v
+relese_cond_signal	jni/netpthread.c	/^void relese_cond_signal()$/;"	f
+rleng	jni/service.c	/^	volatile int rleng;$/;"	m	struct:__netcmd	file:
+rp	jni/service.c	/^	volatile char *rp;$/;"	m	struct:__netcmd	file:
+s_addr	jni/sockserver.h	/^	struct sockaddr_in s_addr;$/;"	m	struct:dtmsg	typeref:struct:dtmsg::sockaddr_in
+s_addr	jni/test/sockserver.h	/^	struct sockaddr_in s_addr;$/;"	m	struct:dtmsg	typeref:struct:dtmsg::sockaddr_in
+s_addrsize	jni/sockserver.h	/^	socklen_t s_addrsize;$/;"	m	struct:dtmsg
+s_addrsize	jni/test/sockserver.h	/^	socklen_t s_addrsize;$/;"	m	struct:dtmsg
+sdAvail	jni/fileinfo.h	/^	char sdAvail[32];			\/\/ SD卡剩余容量$/;"	m	struct:__storageinfo
+sdSize	jni/fileinfo.h	/^	char sdSize[32];			\/\/ SD卡总容量$/;"	m	struct:__storageinfo
+seminit	jni/netpthread.c	/^int seminit()$/;"	f
+send_pack	jni/netpthread.c	/^send_pack()$/;"	f
+send_pthread	jni/netpthread.c	/^void* send_pthread(void* arg) $/;"	f
+send_pthread_init	jni/netpthread.c	/^int send_pthread_init()$/;"	f
+send_sigstart	jni/netpthread.c	/^void send_sigstart()$/;"	f
+senddata	jni/service.c	/^void senddata()$/;"	f
+sendmessage	jni/fileinfo.h	/^sendmessage_t sendmessage;$/;"	v
+sendmessage_t	jni/fileinfo.h	/^}sendmessage_t;$/;"	t	typeref:struct:__sendmessage
+sendmsg	jni/sockserver.h	/^	long sendmsg[PACKET_LENG];$/;"	m	struct:dtmsg
+sendmsg	jni/test/sockserver.h	/^	long sendmsg[PACKET_LENG];$/;"	m	struct:dtmsg
+sendmsgleng	jni/sockserver.h	/^	int sendmsgleng;	$/;"	m	struct:dtmsg
+sendmsgleng	jni/test/sockserver.h	/^	int sendmsgleng;	$/;"	m	struct:dtmsg
+sendthread	jni/netpthread.c	/^static sockthread_t sendthread;$/;"	v	file:
+sfd	jni/sockserver.h	/^	int sfd;$/;"	m	struct:dtmsg
+sfd	jni/test/sockserver.h	/^	int sfd;$/;"	m	struct:dtmsg
+sig_start	jni/netpthread.c	/^char sig_start[0];$/;"	v
+sign	jni/service.c	/^	volatile enum netsyncsign sign;$/;"	m	struct:__netcmd	typeref:enum:__netcmd::netsyncsign	file:
+sleng	jni/service.c	/^	volatile int sleng;$/;"	m	struct:__netcmd	file:
+sock_pthread	jni/netpthread.c	/^void* sock_pthread(void* arg) $/;"	f
+sock_pthread_init	jni/netpthread.c	/^int sock_pthread_init()$/;"	f
+sockfd	jni/netpthread.c	/^int sockfd,new_fd;$/;"	v
+sockfd	jni/sampleservice.c	/^int sockfd,new_fd;$/;"	v
+sockfd	jni/service.c	/^int sockfd,new_fd;$/;"	v
+sockfd	jni/test/service.c	/^int sockfd,new_fd;$/;"	v
+sockthread	jni/netpthread.c	/^static sockthread_t sockthread;$/;"	v	file:
+sockthread_t	jni/netpthread.c	/^}sockthread_t;$/;"	t	typeref:struct:__sockthread	file:
+sp	jni/service.c	/^	volatile char *sp;$/;"	m	struct:__netcmd	file:
+storageinfo	jni/fileinfo.h	/^storageinfo_t storageinfo;$/;"	v
+storageinfo_t	jni/fileinfo.h	/^}storageinfo_t;$/;"	t	typeref:struct:__storageinfo
+tattr	jni/mainpthread.c	/^	pthread_attr_t tattr;$/;"	m	struct:__mainthread	file:
+tattr	jni/netpthread.c	/^	pthread_attr_t tattr;$/;"	m	struct:__sockthread	file:
+tid	jni/mainpthread.c	/^	pthread_t tid;$/;"	m	struct:__mainthread	file:
+tid	jni/netpthread.c	/^	pthread_t tid;$/;"	m	struct:__sockthread	file:
+times	jni/pthread.c	/^int times = 0;$/;"	v
+tout	jni/netpthread.c	/^struct timeval tout;$/;"	v	typeref:struct:timeval
+typeId	jni/fileinfo.h	/^	char typeId; $/;"	m	struct:__mmsinfo
+videoinfo	jni/fileinfo.h	/^media_t videoinfo;$/;"	v

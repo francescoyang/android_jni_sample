@@ -1,0 +1,113 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUFFER_NUM	finger.c	/^int BUFFER_NUM;$/;"	v
+CHAR_BUFFER_1	finger.c	38;"	d	file:
+CHAR_BUFFER_1	main.c	15;"	d	file:
+CHAR_BUFFER_2	finger.c	39;"	d	file:
+CHAR_BUFFER_2	main.c	16;"	d	file:
+CHAR_BUFFER_3	finger.c	40;"	d	file:
+CHAR_BUFFER_3	main.c	17;"	d	file:
+CHAR_BUFFER_4	finger.c	41;"	d	file:
+CHAR_BUFFER_4	main.c	18;"	d	file:
+Continue_input_Finger_Num	main.c	21;"	d	file:
+FINGERLIB_SUM	main.c	20;"	d	file:
+FINGERPRINT_Cmd_Get_Img	finger.c	/^static int FINGERPRINT_Cmd_Get_Img(void)$/;"	f	file:
+FINGERPRINT_Img_To_Buffer	finger.c	/^static void FINGERPRINT_Img_To_Buffer(int BufferID)$/;"	f	file:
+FINGERPRINT_Recevice_Data	finger.c	/^int FINGERPRINT_Recevice_Data(int ucLength)$/;"	f
+LOCAL_CFLAGS	Android.mk	/^LOCAL_CFLAGS := $/;"	m
+LOCAL_LDLIBS	Android.mk	/^LOCAL_LDLIBS :=	$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE:= finger$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES :=$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES:= \\$/;"	m
+MODEL_BUFFER	finger.c	42;"	d	file:
+MODEL_BUFFER	main.c	19;"	d	file:
+PutChar3	read.c	/^PutChar3(int a)$/;"	f
+SER_PutChar3	main.c	/^SER_PutChar3(int a)$/;"	f
+Subsequent_RECEVICE_BUFFER	finger.c	/^int Subsequent_RECEVICE_BUFFER[2048];				  \/\/后续包	  $/;"	v
+Subsequent_RECEVICE_DATA	finger.c	/^int Subsequent_RECEVICE_DATA[1024]={0};$/;"	v
+Subsequent_RECEVICE_LENGTH	finger.c	/^int Subsequent_RECEVICE_LENGTH[24]={0};$/;"	v
+Subsequent_RECEVICE_SUM	finger.c	/^int Subsequent_RECEVICE_SUM[10]={0};$/;"	v
+Subsequent_Recevice_Data	finger.c	/^static int Subsequent_Recevice_Data()$/;"	f	file:
+Subsequent_Send_Data	finger.c	/^static int Subsequent_Send_Data(int *Subsequent_RECEVICE_DATA)$/;"	f	file:
+SysPara_num	finger.c	/^int SysPara_num[3]={0x04,0x05,0x06};$/;"	v
+UART_RECEVICE_BUFFER	finger.c	/^int UART_RECEVICE_BUFFER[24]={0};			  \/\/应答包$/;"	v
+ZAZ_ADDRESS_OVER	finger.c	21;"	d	file:
+ZAZ_CLEAR_TEMP_ERR	finger.c	27;"	d	file:
+ZAZ_COMM_ERR	finger.c	11;"	d	file:
+ZAZ_DEL_TEMP_ERR	finger.c	26;"	d	file:
+ZAZ_DeletChar	finger.c	/^int ZAZ_DeletChar(int uiID_temp,int N_temp )$/;"	f
+ZAZ_Delet_All_Model	finger.c	/^int ZAZ_Delet_All_Model[6]={0x01,0x00,0x03,0x3d,0x00,0x41};\/\/删除指纹模块里所有的模版$/;"	v
+ZAZ_Delete_Model	finger.c	/^int ZAZ_Delete_Model[10]={0x01,0x00,0x07,0x3C,0x00,0x00,0x00,0x01,0x00,0x45}; \/\/删除指定的模版$/;"	v
+ZAZ_DownChar	finger.c	/^int ZAZ_DownChar(int BufferID)$/;"	f
+ZAZ_Down_Image	finger.c	/^int ZAZ_Down_Image[6]    = {0x01,0x00,0x03,0x3b,0x00,0x3f};      \/\/下载图像$/;"	v
+ZAZ_Down_To_Buffer	finger.c	/^int ZAZ_Down_To_Buffer[7] = {0x01,0x00,0x04,0x39,0x01,0x00,0x3f};	\/\/上位机下载特征文件到CHAR_BUFFER$/;"	v
+ZAZ_Empty	finger.c	/^int ZAZ_Empty(void)$/;"	f
+ZAZ_FLASH_ERR	finger.c	33;"	d	file:
+ZAZ_FP_DISORDER	finger.c	16;"	d	file:
+ZAZ_FP_TOO_DRY	finger.c	14;"	d	file:
+ZAZ_FP_TOO_WET	finger.c	15;"	d	file:
+ZAZ_FingerLIB_Search_Comparison	finger.c	/^int ZAZ_FingerLIB_Search_Comparison(int BufferID,int StartPage,int Finger_Num)$/;"	f
+ZAZ_GET_IMG_ERR	finger.c	13;"	d	file:
+ZAZ_GenChar	finger.c	/^int ZAZ_GenChar(int BufferID)$/;"	f
+ZAZ_GetImag	finger.c	/^int ZAZ_GetImag(void)$/;"	f
+ZAZ_Get_Img	finger.c	/^int ZAZ_Get_Img[6]       = {0x01,0x00,0x03,0x31,0x00,0x35};       \/\/录指纹图像$/;"	v
+ZAZ_HANGOVER_UNREMOVE	finger.c	32;"	d	file:
+ZAZ_INVALID_IMAGE	finger.c	31;"	d	file:
+ZAZ_INVALID_PASSWORD	finger.c	29;"	d	file:
+ZAZ_Img_To_Buffer	finger.c	/^int ZAZ_Img_To_Buffer[7] = {0x01,0x00,0x04,0x32,0x01,0x00,0x38}; \/\/将图像放入到CHAR_BUFFER$/;"	v
+ZAZ_LITTLE_FEATURE	finger.c	17;"	d	file:
+ZAZ_Load_Char	finger.c	/^int ZAZ_Load_Char[9]  ={0x01,0x00,0x06,0x37,0x01,0x00,0x0A,0x00,0x49};	 \/\/将 flash 数据库中指定 ID 号的指纹模板读入到模板缓冲区$/;"	v
+ZAZ_Loadchar	finger.c	/^int ZAZ_Loadchar(int BufferID,int Finger_Num)$/;"	f
+ZAZ_MERGE_ERR	finger.c	20;"	d	file:
+ZAZ_Match	finger.c	/^int ZAZ_Match[6]       = {0x01,0x00,0x03,0x33,0x00,0x37};        \/\/精确比对两枚指纹特征$/;"	v
+ZAZ_Match_Comparison	finger.c	/^int ZAZ_Match_Comparison(int BufferID1,int BufferID2)$/;"	f
+ZAZ_NODEFINE_ERR	finger.c	34;"	d	file:
+ZAZ_NOT_MATCH	finger.c	18;"	d	file:
+ZAZ_NOT_SEARCHED	finger.c	19;"	d	file:
+ZAZ_NO_FINGER	finger.c	12;"	d	file:
+ZAZ_OK	finger.c	10;"	d	file:
+ZAZ_Pack_Head	finger.c	/^int ZAZ_Pack_Head[6]     = {0xEF,0x01,0xFF,0xFF,0xFF,0xFF};      \/\/协议包头$/;"	v
+ZAZ_READ_ERR	finger.c	22;"	d	file:
+ZAZ_RECV_ERR	finger.c	24;"	d	file:
+ZAZ_RESET_ERR	finger.c	30;"	d	file:
+ZAZ_ReadSysPara	finger.c	/^int * ZAZ_ReadSysPara(void)$/;"	f
+ZAZ_Read_SysPara	finger.c	/^int ZAZ_Read_SysPara[6]={0x01,0x00,0x03,0x3f,0x00,0x43}; \/\/读系统参数$/;"	v
+ZAZ_RegModel	finger.c	/^int ZAZ_RegModel(void)$/;"	f
+ZAZ_Reg_Model	finger.c	/^int ZAZ_Reg_Model[6]     = {0x01,0x00,0x03,0x35,0x00,0x39};        \/\/将CHAR_BUFFER_1、2、3、4合成特征模版$/;"	v
+ZAZ_SLEEP_ERR	finger.c	28;"	d	file:
+ZAZ_Save_Finger	finger.c	/^int ZAZ_Save_Finger[9]={0x01,0x00,0x06,0x36,0x01,0x00,0x0B,0x00,0x49};\/\/将BUFFER1中的特征码存放到指定的位置$/;"	v
+ZAZ_Search	finger.c	/^int ZAZ_Search[11]     ={0x01,0x00,0x08,0x34,0x01,0x00,0x00,0x03,0xA1,0x00,0xe2}; \/\/搜索指纹搜索范围0 - 929$/;"	v
+ZAZ_Search_Comparison	finger.c	/^int ZAZ_Search_Comparison(int BufferID,int StartPage,int PageNum)$/;"	f
+ZAZ_Search_Finger	finger.c	/^int * ZAZ_Search_Finger(int BufferID,int StartPage,int PageNum)$/;"	f
+ZAZ_SetSysPara	finger.c	/^int ZAZ_SetSysPara(void)$/;"	f
+ZAZ_Set_Syspara	finger.c	/^int ZAZ_Set_Syspara[8]   ={0x01,0x00,0x05,0x3e,0x05,0x02,0x00,0x4b};	 \/\/设置系统基本参数安全等级为2$/;"	v
+ZAZ_StoreChar	finger.c	/^int ZAZ_StoreChar( int BuffID,int Finger_Num)$/;"	f
+ZAZ_TempleteNum	finger.c	/^int *ZAZ_TempleteNum(void)$/;"	f
+ZAZ_Templete_Num	finger.c	/^int ZAZ_Templete_Num[6]  ={0x01,0x00,0x03,0x4D,0x00,0x51 };      \/\/获得模版总数															 $/;"	v
+ZAZ_Two_Match	finger.c	/^int * ZAZ_Two_Match(void)$/;"	f
+ZAZ_UP_IMG_ERR	finger.c	25;"	d	file:
+ZAZ_UP_TEMP_ERR	finger.c	23;"	d	file:
+ZAZ_UpChar	finger.c	/^int ZAZ_UpChar( int BufferID)$/;"	f
+ZAZ_Up_Buffer	finger.c	/^int ZAZ_Up_Buffer[7]    = {0x01,0x00,0x04,0x38,0x01,0x00,0x3e};  \/\/将CHAR_BUFFER上传给上位机$/;"	v
+ZAZ_Up_Image	finger.c	/^int ZAZ_Up_Image[6]      = {0x01,0x00,0x03,0x3a,0x00,0x3e};      \/\/上传图像$/;"	v
+ZAZ_add_new_user	finger.c	/^int ZAZ_add_new_user(int BufferID,int Finger_Num)$/;"	f
+ZAZ_addnewuser_To_Pc	finger.c	/^int ZAZ_addnewuser_To_Pc(int BufferID,int Finger_Num)$/;"	f
+ZAZ_flashlib_to_pc	finger.c	/^int ZAZ_flashlib_to_pc(int BufferID,int Finger_Num)$/;"	f
+__FINGER_H	finger.c	5;"	d	file:
+clear_buf	main.c	/^clear_buf()$/;"	f
+fd	main.c	/^int fd;$/;"	v
+fd	read.c	/^int fd;$/;"	v
+fd_485	main.c	/^int fd_485;$/;"	v
+getBaudrate	read.c	/^static speed_t getBaudrate(jint baudrate)$/;"	f	file:
+getkey3	main.c	/^int getkey3()$/;"	f
+getkey3	read.c	/^int getkey3()$/;"	f
+init_port	main.c	/^int init_port(int fds,int baud_rate)$/;"	f
+main	main.c	/^int main() $/;"	f
+main	read.c	/^main()$/;"	f
+open_port	main.c	/^int open_port(char * dev)$/;"	f
+write_buf	read.c	/^write_buf(char a)$/;"	f

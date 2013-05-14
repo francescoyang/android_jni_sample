@@ -1,0 +1,695 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANTI	ic.c	/^unsigned char ANTI[3] = { 0x2,0x93,0x20 }; $/;"	v
+ANTI	ic_old.c	/^unsigned char ANTI[3] = { 0x2,0x93,0x20 }; $/;"	v
+ANTI_CMD	ic.c	/^	ANTI_CMD,$/;"	e	enum:__anon2	file:
+ANTI_CMD	ic_old.c	/^	ANTI_CMD,$/;"	e	enum:__anon3	file:
+AUTHA	ic.c	/^unsigned char AUTHA[2] = { 0x2,0x60 };$/;"	v
+AUTHA	ic_old.c	/^unsigned char AUTHA[2] = { 0x2,0x60 };$/;"	v
+AUTHA_CMD	ic.c	/^	AUTHA_CMD,$/;"	e	enum:__anon2	file:
+AUTHA_CMD	ic_old.c	/^	AUTHA_CMD,$/;"	e	enum:__anon3	file:
+AUTHB_CMD	ic.c	/^	AUTHB_CMD,$/;"	e	enum:__anon2	file:
+AUTHB_CMD	ic_old.c	/^	AUTHB_CMD,$/;"	e	enum:__anon3	file:
+BLOCK_BYTES	d3des.c	10;"	d	file:
+BPOS	ic.c	38;"	d	file:
+BPOS	ic_old.c	37;"	d	file:
+BUFFER_NUM	finger.c	/^int BUFFER_NUM;$/;"	v
+BUFFER_NUM	finger_old.c	/^int BUFFER_NUM;$/;"	v
+BYTE_ORDER	md5.c	10;"	d	file:
+BYTE_ORDER	md5.c	6;"	d	file:
+BYTE_ORDER	md5.c	8;"	d	file:
+BYTE_ORDER	md5/md5.c	10;"	d	file:
+BYTE_ORDER	md5/md5.c	6;"	d	file:
+BYTE_ORDER	md5/md5.c	8;"	d	file:
+CERR	ic.c	48;"	d	file:
+CERR	ic_old.c	47;"	d	file:
+CHAR_BUFFER_1	finger.c	43;"	d	file:
+CHAR_BUFFER_1	finger_old.c	38;"	d	file:
+CHAR_BUFFER_1	fingeropen.c	15;"	d	file:
+CHAR_BUFFER_2	finger.c	44;"	d	file:
+CHAR_BUFFER_2	finger_old.c	39;"	d	file:
+CHAR_BUFFER_2	fingeropen.c	16;"	d	file:
+CHAR_BUFFER_3	finger.c	45;"	d	file:
+CHAR_BUFFER_3	finger_old.c	40;"	d	file:
+CHAR_BUFFER_3	fingeropen.c	17;"	d	file:
+CHAR_BUFFER_4	finger.c	46;"	d	file:
+CHAR_BUFFER_4	finger_old.c	41;"	d	file:
+CHAR_BUFFER_4	fingeropen.c	18;"	d	file:
+COL_STAT	ic.c	79;"	d	file:
+COL_STAT	ic_old.c	78;"	d	file:
+CRCERR	ic.c	43;"	d	file:
+CRCERR	ic_old.c	42;"	d	file:
+CRCH	ic.c	34;"	d	file:
+CRCH	ic_old.c	33;"	d	file:
+CRCL	ic.c	35;"	d	file:
+CRCL	ic_old.c	34;"	d	file:
+CRCSEL	ic.c	28;"	d	file:
+CRCSEL	ic_old.c	27;"	d	file:
+CRYPTO1_CTRL	ic.c	73;"	d	file:
+CRYPTO1_CTRL	ic_old.c	72;"	d	file:
+Continue_input_Finger_Num	fingeropen.c	21;"	d	file:
+D2_DES	d3des.h	10;"	d
+D2_DES	d3des.h	15;"	d
+D2des	d3des.c	/^void D2des(from, into)$/;"	f
+D3_DES	d3des.h	11;"	d
+D3dDes_Decrypt	jnilib.c	/^char* D3dDes_Decrypt(char *from, unsigned int len, char *key)$/;"	f
+D3des	d3des.c	/^static void D3des(from, into)	\/* amateur theatrics *\/$/;"	f	file:
+DATA	ic.c	24;"	d	file:
+DATA	ic_old.c	23;"	d	file:
+DATA0	ic.c	74;"	d	file:
+DATA0	ic_old.c	73;"	d	file:
+DATA1	ic.c	75;"	d	file:
+DATA1	ic_old.c	74;"	d	file:
+DATA2	ic.c	76;"	d	file:
+DATA2	ic_old.c	75;"	d	file:
+DATA3	ic.c	77;"	d	file:
+DATA3	ic_old.c	76;"	d	file:
+DATA4	ic.c	78;"	d	file:
+DATA4	ic_old.c	77;"	d	file:
+DATOVER	ic.c	45;"	d	file:
+DATOVER	ic_old.c	44;"	d	file:
+DE1	d3des.h	20;"	d
+DECREMENT_CMD	ic.c	/^	DECREMENT_CMD,$/;"	e	enum:__anon2	file:
+DECREMENT_CMD	ic_old.c	/^	DECREMENT_CMD,$/;"	e	enum:__anon3	file:
+DESede_Decrypt	d3des.c	/^unsigned int DESede_Decrypt(char *to, char *from, unsigned int len, char *key)$/;"	f
+DESede_Encrypt	d3des.c	/^unsigned int DESede_Encrypt(char *to, char *from, unsigned int len, char *key)$/;"	f
+Ddes	d3des.c	/^void Ddes(from, into)$/;"	f
+Df_Key	d3des.c	/^static unsigned char Df_Key[24] = {$/;"	v	file:
+DoCrypt	d3des.c	12;"	d	file:
+EGT	ic.c	27;"	d	file:
+EGT	ic_old.c	26;"	d	file:
+EN0	d3des.h	19;"	d
+ETK	ic.c	53;"	d	file:
+ETK	ic_old.c	52;"	d	file:
+F	md5.c	151;"	d	file:
+F	md5/md5.c	151;"	d	file:
+FCONB	ic.c	26;"	d	file:
+FCONB	ic_old.c	25;"	d	file:
+FEND	ic.c	42;"	d	file:
+FEND	ic_old.c	41;"	d	file:
+FERR	ic.c	46;"	d	file:
+FERR	ic_old.c	45;"	d	file:
+FINGER	jnilib.c	18;"	d	file:
+FINGERCODE	finger.c	/^int * FINGERCODE;$/;"	v
+FINGERLIB_SUM	fingeropen.c	20;"	d	file:
+FINGERPRINT_Cmd_Get_Img	finger.c	/^static int FINGERPRINT_Cmd_Get_Img(void)$/;"	f	file:
+FINGERPRINT_Cmd_Get_Img	finger_old.c	/^static int FINGERPRINT_Cmd_Get_Img(void)$/;"	f	file:
+FINGERPRINT_Img_To_Buffer	finger.c	/^static void FINGERPRINT_Img_To_Buffer(int BufferID)$/;"	f	file:
+FINGERPRINT_Img_To_Buffer	finger_old.c	/^static void FINGERPRINT_Img_To_Buffer(int BufferID)$/;"	f	file:
+FINGERPRINT_Recevice_Data	finger.c	/^int FINGERPRINT_Recevice_Data(int ucLength)$/;"	f
+FINGERPRINT_Recevice_Data	finger_old.c	/^int FINGERPRINT_Recevice_Data(int ucLength)$/;"	f
+FM_CTRL	ic.c	71;"	d	file:
+FM_CTRL	ic_old.c	70;"	d	file:
+G	md5.c	177;"	d	file:
+G	md5/md5.c	177;"	d	file:
+GPS	jnilib.c	19;"	d	file:
+H	md5.c	203;"	d	file:
+H	md5/md5.c	203;"	d	file:
+HLTA	ic.c	/^unsigned char HLTA[2] = {0x1,0x52};$/;"	v
+HLTA	ic_old.c	/^unsigned char HLTA[2] = {0x1,0x52};$/;"	v
+HLTA_CMD	ic.c	/^	HLTA_CMD,$/;"	e	enum:__anon2	file:
+HLTA_CMD	ic_old.c	/^	HLTA_CMD,$/;"	e	enum:__anon3	file:
+I	md5.c	229;"	d	file:
+I	md5/md5.c	229;"	d	file:
+ICCARD	jnilib.c	17;"	d	file:
+INCREMENT_CMD	ic.c	/^	INCREMENT_CMD,$/;"	e	enum:__anon2	file:
+INCREMENT_CMD	ic_old.c	/^	INCREMENT_CMD,$/;"	e	enum:__anon3	file:
+INTCON	ic.c	31;"	d	file:
+INTCON	ic_old.c	30;"	d	file:
+ISO15693	ic.c	52;"	d	file:
+ISO15693	ic_old.c	51;"	d	file:
+Java_com_example_jnitest_Jnilib_ItcDecrypt	jnilib.c	/^jstring  Java_com_example_jnitest_Jnilib_ItcDecrypt( JNIEnv* env,jobject thiz, jbyteArray icid, jint len)$/;"	f
+Java_com_example_jnitest_Jnilib_ItcEncrypt	jnilib.c	/^jbyteArray  Java_com_example_jnitest_Jnilib_ItcEncrypt( JNIEnv* env,jobject thiz, jbyteArray icid, jint len) $/;"	f
+Java_com_example_jnitest_Jnilib_close	jnilib.c	/^	JNIEXPORT void JNICALL Java_com_example_jnitest_Jnilib_close$/;"	f
+Java_com_example_jnitest_Jnilib_d3dtest	jnilib.c	/^jstring  Java_com_example_jnitest_Jnilib_d3dtest( JNIEnv* env,jobject thiz, jbyteArray icid) $/;"	f
+Java_com_example_jnitest_Jnilib_matchfinger	fingeropen.c	/^jint  Java_com_example_jnitest_Jnilib_matchfinger( JNIEnv* env,jobject thiz, jintArray nums, jint fds)$/;"	f
+Java_com_example_jnitest_Jnilib_md5	jnilib.c	/^jstring  Java_com_example_jnitest_Jnilib_md5( JNIEnv* env,jobject thiz, jbyteArray md5buf)$/;"	f
+Java_com_example_jnitest_Jnilib_open	jnilib.c	/^	jint Java_com_example_jnitest_Jnilib_open$/;"	f
+Java_com_example_jnitest_Jnilib_readfile	jnilib.c	/^Java_com_example_jnitest_Jnilib_readfile( JNIEnv* env,$/;"	f
+Java_com_example_jnitest_Jnilib_readgps	jnilib.c	/^jstring  Java_com_example_jnitest_Jnilib_readgps( JNIEnv* env,jobject thiz ,jint fds,jint len)$/;"	f
+Java_com_example_jnitest_Jnilib_readiccard	jnilib.c	/^jstring  Java_com_example_jnitest_Jnilib_readiccard( JNIEnv* env,jobject thiz ,jint fds)$/;"	f
+Java_com_example_jnitest_Jnilib_rematchfinger	fingeropen.c	/^jint  Java_com_example_jnitest_Jnilib_rematchfinger( JNIEnv* env,jobject thiz,jint fds)$/;"	f
+Java_com_example_jnitest_Jnilib_write	jnilib.c	/^	jstring Java_com_example_jnitest_Jnilib_write$/;"	f
+Jstring2CStr	jnilib.c	/^char*   Jstring2CStr(JNIEnv*   env,   jstring   jstr)$/;"	f
+Kn3	d3des.c	/^static unsigned long Kn3[32] = { 0L };$/;"	v	file:
+KnL	d3des.c	/^static unsigned long KnL[32] = { 0L };$/;"	v	file:
+KnR	d3des.c	/^static unsigned long KnR[32] = { 0L };$/;"	v	file:
+LOCAL_C_INCLUDES	Android.mk	/^LOCAL_C_INCLUDES := $(LOCAL_PATH)\/include \\$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE    := jnilib$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOGD	finger.c	7;"	d	file:
+LOGD	fingeropen.c	25;"	d	file:
+LOGD	ic_old.c	15;"	d	file:
+LOGE	finger.c	8;"	d	file:
+LOGE	fingeropen.c	26;"	d	file:
+LOGE	ic_old.c	16;"	d	file:
+LOGI	finger.c	6;"	d	file:
+LOGI	fingeropen.c	24;"	d	file:
+LOGI	ic_old.c	14;"	d	file:
+M68K	d3des.h	/^	} M68K;$/;"	t	typeref:union:__anon1
+MBLOCK_SIZE	ic.c	65;"	d	file:
+MBLOCK_SIZE	ic_old.c	64;"	d	file:
+MIFARE	ic.c	54;"	d	file:
+MIFARE	ic_old.c	53;"	d	file:
+MODEL_BUFFER	finger.c	47;"	d	file:
+MODEL_BUFFER	finger_old.c	42;"	d	file:
+MODEL_BUFFER	fingeropen.c	19;"	d	file:
+MWALLET_SIZE	ic.c	66;"	d	file:
+MWALLET_SIZE	ic_old.c	65;"	d	file:
+OPEN_DEV	jnilib.c	15;"	d	file:
+PERR	ic.c	47;"	d	file:
+PERR	ic_old.c	46;"	d	file:
+PSEL	ic.c	25;"	d	file:
+PSEL	ic_old.c	24;"	d	file:
+PWTH	ic.c	40;"	d	file:
+PWTH	ic_old.c	39;"	d	file:
+PutChar3	read.c	/^PutChar3(int a)$/;"	f
+RCV_BAUD_106K	ic.c	60;"	d	file:
+RCV_BAUD_106K	ic_old.c	59;"	d	file:
+RCV_BAUD_212K	ic.c	61;"	d	file:
+RCV_BAUD_212K	ic_old.c	60;"	d	file:
+RCV_BAUD_424K	ic.c	62;"	d	file:
+RCV_BAUD_424K	ic_old.c	61;"	d	file:
+RCV_BAUD_848K	ic.c	63;"	d	file:
+RCV_BAUD_848K	ic_old.c	62;"	d	file:
+READ_CMD	ic.c	/^	READ_CMD,$/;"	e	enum:__anon2	file:
+READ_CMD	ic_old.c	/^	READ_CMD,$/;"	e	enum:__anon3	file:
+REQA	ic.c	/^unsigned char REQA[2] = {0x1,0x26};$/;"	v
+REQA	ic_old.c	/^unsigned char REQA[2] = {0x1,0x26};$/;"	v
+REQA_CMD	ic.c	/^	REQA_CMD,$/;"	e	enum:__anon2	file:
+REQA_CMD	ic_old.c	/^	REQA_CMD,$/;"	e	enum:__anon3	file:
+RESTORE_CMD	ic.c	/^	RESTORE_CMD,$/;"	e	enum:__anon2	file:
+RESTORE_CMD	ic_old.c	/^	RESTORE_CMD,$/;"	e	enum:__anon3	file:
+ROTATE_LEFT	md5.c	146;"	d	file:
+ROTATE_LEFT	md5/md5.c	146;"	d	file:
+RSCH	ic.c	32;"	d	file:
+RSCH	ic_old.c	31;"	d	file:
+RSCL	ic.c	33;"	d	file:
+RSCL	ic_old.c	32;"	d	file:
+RSTAT	ic.c	29;"	d	file:
+RSTAT	ic_old.c	28;"	d	file:
+SCNTL	ic.c	30;"	d	file:
+SCNTL	ic_old.c	29;"	d	file:
+SELECT	ic.c	/^unsigned char SELECT[3] = { 0x7,0x93,0x70 }; $/;"	v
+SELECT	ic_old.c	/^unsigned char SELECT[3] = { 0x7,0x93,0x70 }; $/;"	v
+SELECT_CMD	ic.c	/^	SELECT_CMD,$/;"	e	enum:__anon2	file:
+SELECT_CMD	ic_old.c	/^	SELECT_CMD,$/;"	e	enum:__anon3	file:
+SER_PutChar3	fingeropen.c	/^SER_PutChar3(int a)$/;"	f
+SET	md5.c	152;"	d	file:
+SET	md5.c	172;"	d	file:
+SET	md5.c	178;"	d	file:
+SET	md5.c	198;"	d	file:
+SET	md5.c	204;"	d	file:
+SET	md5.c	224;"	d	file:
+SET	md5.c	230;"	d	file:
+SET	md5.c	250;"	d	file:
+SET	md5/md5.c	152;"	d	file:
+SET	md5/md5.c	172;"	d	file:
+SET	md5/md5.c	178;"	d	file:
+SET	md5/md5.c	198;"	d	file:
+SET	md5/md5.c	204;"	d	file:
+SET	md5/md5.c	224;"	d	file:
+SET	md5/md5.c	230;"	d	file:
+SET	md5/md5.c	250;"	d	file:
+SET_BAU	jnilib.c	16;"	d	file:
+SMOD	ic.c	39;"	d	file:
+SMOD	ic_old.c	38;"	d	file:
+SND_BAUD_106K	ic.c	55;"	d	file:
+SND_BAUD_106K	ic_old.c	54;"	d	file:
+SND_BAUD_212K	ic.c	56;"	d	file:
+SND_BAUD_212K	ic_old.c	55;"	d	file:
+SND_BAUD_424K	ic.c	57;"	d	file:
+SND_BAUD_424K	ic_old.c	56;"	d	file:
+SND_BAUD_848K	ic.c	58;"	d	file:
+SND_BAUD_848K	ic_old.c	57;"	d	file:
+SND_CTRL	ic.c	80;"	d	file:
+SND_CTRL	ic_old.c	79;"	d	file:
+SP1	d3des.c	/^static unsigned long SP1[64] = {$/;"	v	file:
+SP2	d3des.c	/^static unsigned long SP2[64] = {$/;"	v	file:
+SP3	d3des.c	/^static unsigned long SP3[64] = {$/;"	v	file:
+SP4	d3des.c	/^static unsigned long SP4[64] = {$/;"	v	file:
+SP5	d3des.c	/^static unsigned long SP5[64] = {$/;"	v	file:
+SP6	d3des.c	/^static unsigned long SP6[64] = {$/;"	v	file:
+SP7	d3des.c	/^static unsigned long SP7[64] = {$/;"	v	file:
+SP8	d3des.c	/^static unsigned long SP8[64] = {$/;"	v	file:
+SPI_RecvBuff	ic.c	/^void SPI_RecvBuff(unsigned char *buf,unsigned int num)$/;"	f
+SPI_RecvBuff	ic_old.c	/^void SPI_RecvBuff(unsigned char *buf,unsigned int num)$/;"	f
+SPI_SendBuff	ic.c	/^void SPI_SendBuff(unsigned char *buf,unsigned int num)$/;"	f
+SPI_SendBuff	ic_old.c	/^void SPI_SendBuff(unsigned char *buf,unsigned int num)$/;"	f
+STAT_CTRL	ic.c	70;"	d	file:
+STAT_CTRL	ic_old.c	69;"	d	file:
+SetKey	d3des.c	11;"	d	file:
+Subsequent_RECEVICE_BUFFER	finger.c	/^int Subsequent_RECEVICE_BUFFER[2048];				  \/\/后续包	  $/;"	v
+Subsequent_RECEVICE_BUFFER	finger_old.c	/^int Subsequent_RECEVICE_BUFFER[2048];				  \/\/后续包	  $/;"	v
+Subsequent_RECEVICE_DATA	finger.c	/^int Subsequent_RECEVICE_DATA[1024]= {0};$/;"	v
+Subsequent_RECEVICE_DATA	finger_old.c	/^int Subsequent_RECEVICE_DATA[1024]={0};$/;"	v
+Subsequent_RECEVICE_LENGTH	finger.c	/^int Subsequent_RECEVICE_LENGTH[24]={0};$/;"	v
+Subsequent_RECEVICE_LENGTH	finger_old.c	/^int Subsequent_RECEVICE_LENGTH[24]={0};$/;"	v
+Subsequent_RECEVICE_SUM	finger.c	/^int Subsequent_RECEVICE_SUM[10]={0};$/;"	v
+Subsequent_RECEVICE_SUM	finger_old.c	/^int Subsequent_RECEVICE_SUM[10]={0};$/;"	v
+Subsequent_Recevice_Data	finger.c	/^static int Subsequent_Recevice_Data()$/;"	f	file:
+Subsequent_Recevice_Data	finger_old.c	/^static int Subsequent_Recevice_Data()$/;"	f	file:
+Subsequent_Send_Data	finger.c	/^static int Subsequent_Send_Data()$/;"	f	file:
+Subsequent_Send_Data	finger_old.c	/^static int Subsequent_Send_Data()$/;"	f	file:
+SysPara_num	finger.c	/^int SysPara_num[3]={0x04,0x05,0x06};$/;"	v
+SysPara_num	finger_old.c	/^int SysPara_num[3]={0x04,0x05,0x06};$/;"	v
+T1	md5.c	14;"	d	file:
+T1	md5/md5.c	14;"	d	file:
+T10	md5.c	23;"	d	file:
+T10	md5/md5.c	23;"	d	file:
+T11	md5.c	24;"	d	file:
+T11	md5/md5.c	24;"	d	file:
+T12	md5.c	25;"	d	file:
+T12	md5/md5.c	25;"	d	file:
+T13	md5.c	26;"	d	file:
+T13	md5/md5.c	26;"	d	file:
+T14	md5.c	27;"	d	file:
+T14	md5/md5.c	27;"	d	file:
+T15	md5.c	28;"	d	file:
+T15	md5/md5.c	28;"	d	file:
+T16	md5.c	29;"	d	file:
+T16	md5/md5.c	29;"	d	file:
+T17	md5.c	30;"	d	file:
+T17	md5/md5.c	30;"	d	file:
+T18	md5.c	31;"	d	file:
+T18	md5/md5.c	31;"	d	file:
+T19	md5.c	32;"	d	file:
+T19	md5/md5.c	32;"	d	file:
+T2	md5.c	15;"	d	file:
+T2	md5/md5.c	15;"	d	file:
+T20	md5.c	33;"	d	file:
+T20	md5/md5.c	33;"	d	file:
+T21	md5.c	34;"	d	file:
+T21	md5/md5.c	34;"	d	file:
+T22	md5.c	35;"	d	file:
+T22	md5/md5.c	35;"	d	file:
+T23	md5.c	36;"	d	file:
+T23	md5/md5.c	36;"	d	file:
+T24	md5.c	37;"	d	file:
+T24	md5/md5.c	37;"	d	file:
+T25	md5.c	38;"	d	file:
+T25	md5/md5.c	38;"	d	file:
+T26	md5.c	39;"	d	file:
+T26	md5/md5.c	39;"	d	file:
+T27	md5.c	40;"	d	file:
+T27	md5/md5.c	40;"	d	file:
+T28	md5.c	41;"	d	file:
+T28	md5/md5.c	41;"	d	file:
+T29	md5.c	42;"	d	file:
+T29	md5/md5.c	42;"	d	file:
+T3	md5.c	16;"	d	file:
+T3	md5/md5.c	16;"	d	file:
+T30	md5.c	43;"	d	file:
+T30	md5/md5.c	43;"	d	file:
+T31	md5.c	44;"	d	file:
+T31	md5/md5.c	44;"	d	file:
+T32	md5.c	45;"	d	file:
+T32	md5/md5.c	45;"	d	file:
+T33	md5.c	46;"	d	file:
+T33	md5/md5.c	46;"	d	file:
+T34	md5.c	47;"	d	file:
+T34	md5/md5.c	47;"	d	file:
+T35	md5.c	48;"	d	file:
+T35	md5/md5.c	48;"	d	file:
+T36	md5.c	49;"	d	file:
+T36	md5/md5.c	49;"	d	file:
+T37	md5.c	50;"	d	file:
+T37	md5/md5.c	50;"	d	file:
+T38	md5.c	51;"	d	file:
+T38	md5/md5.c	51;"	d	file:
+T39	md5.c	52;"	d	file:
+T39	md5/md5.c	52;"	d	file:
+T4	md5.c	17;"	d	file:
+T4	md5/md5.c	17;"	d	file:
+T40	md5.c	53;"	d	file:
+T40	md5/md5.c	53;"	d	file:
+T41	md5.c	54;"	d	file:
+T41	md5/md5.c	54;"	d	file:
+T42	md5.c	55;"	d	file:
+T42	md5/md5.c	55;"	d	file:
+T43	md5.c	56;"	d	file:
+T43	md5/md5.c	56;"	d	file:
+T44	md5.c	57;"	d	file:
+T44	md5/md5.c	57;"	d	file:
+T45	md5.c	58;"	d	file:
+T45	md5/md5.c	58;"	d	file:
+T46	md5.c	59;"	d	file:
+T46	md5/md5.c	59;"	d	file:
+T47	md5.c	60;"	d	file:
+T47	md5/md5.c	60;"	d	file:
+T48	md5.c	61;"	d	file:
+T48	md5/md5.c	61;"	d	file:
+T49	md5.c	62;"	d	file:
+T49	md5/md5.c	62;"	d	file:
+T5	md5.c	18;"	d	file:
+T5	md5/md5.c	18;"	d	file:
+T50	md5.c	63;"	d	file:
+T50	md5/md5.c	63;"	d	file:
+T51	md5.c	64;"	d	file:
+T51	md5/md5.c	64;"	d	file:
+T52	md5.c	65;"	d	file:
+T52	md5/md5.c	65;"	d	file:
+T53	md5.c	66;"	d	file:
+T53	md5/md5.c	66;"	d	file:
+T54	md5.c	67;"	d	file:
+T54	md5/md5.c	67;"	d	file:
+T55	md5.c	68;"	d	file:
+T55	md5/md5.c	68;"	d	file:
+T56	md5.c	69;"	d	file:
+T56	md5/md5.c	69;"	d	file:
+T57	md5.c	70;"	d	file:
+T57	md5/md5.c	70;"	d	file:
+T58	md5.c	71;"	d	file:
+T58	md5/md5.c	71;"	d	file:
+T59	md5.c	72;"	d	file:
+T59	md5/md5.c	72;"	d	file:
+T6	md5.c	19;"	d	file:
+T6	md5/md5.c	19;"	d	file:
+T60	md5.c	73;"	d	file:
+T60	md5/md5.c	73;"	d	file:
+T61	md5.c	74;"	d	file:
+T61	md5/md5.c	74;"	d	file:
+T62	md5.c	75;"	d	file:
+T62	md5/md5.c	75;"	d	file:
+T63	md5.c	76;"	d	file:
+T63	md5/md5.c	76;"	d	file:
+T64	md5.c	77;"	d	file:
+T64	md5/md5.c	77;"	d	file:
+T7	md5.c	20;"	d	file:
+T7	md5/md5.c	20;"	d	file:
+T8	md5.c	21;"	d	file:
+T8	md5/md5.c	21;"	d	file:
+T9	md5.c	22;"	d	file:
+T9	md5/md5.c	22;"	d	file:
+TAG	finger.c	/^static const char *TAG="Acanoe";$/;"	v	file:
+TAG	fingeropen.c	/^static const char *TAG="Acanoe";$/;"	v	file:
+TAG	ic_old.c	/^static const char *TAG="serial_port";$/;"	v	file:
+THM_CloseRF	ic.c	/^void THM_CloseRF()$/;"	f
+THM_CloseRF	ic_old.c	/^void THM_CloseRF()$/;"	f
+THM_FindCard	ic.c	/^unsigned char THM_FindCard(unsigned char * b_uid)$/;"	f
+THM_FindCard	ic_old.c	/^unsigned char THM_FindCard(unsigned char * b_uid)$/;"	f
+THM_MAuthentication	ic.c	/^unsigned char THM_MAuthentication(unsigned char bKeyNo,unsigned char bBlock)$/;"	f
+THM_MAuthentication	ic_old.c	/^unsigned char THM_MAuthentication(unsigned char bKeyNo,unsigned char bBlock)$/;"	f
+THM_MDecrement	ic.c	/^unsigned char THM_MDecrement(unsigned char bBlock,unsigned char *pbValue )$/;"	f
+THM_MDecrement	ic_old.c	/^unsigned char THM_MDecrement(unsigned char bBlock,unsigned char *pbValue )$/;"	f
+THM_MFindCard	ic.c	/^unsigned char THM_MFindCard(unsigned char * b_uid)$/;"	f
+THM_MFindCard	ic_old.c	/^unsigned char THM_MFindCard(unsigned char * b_uid)$/;"	f
+THM_MHLTA	ic.c	/^void THM_MHLTA(void)$/;"	f
+THM_MHLTA	ic_old.c	/^void THM_MHLTA(void)$/;"	f
+THM_MIncrement	ic.c	/^unsigned char THM_MIncrement(unsigned char bBlock,unsigned char *pbValue )$/;"	f
+THM_MIncrement	ic_old.c	/^unsigned char THM_MIncrement(unsigned char bBlock,unsigned char *pbValue )$/;"	f
+THM_MInitialKEY	ic.c	/^void THM_MInitialKEY(unsigned char * keya, unsigned char * keyb) $/;"	f
+THM_MInitialKEY	ic_old.c	/^void THM_MInitialKEY(unsigned char * keya, unsigned char * keyb) $/;"	f
+THM_MRead	ic.c	/^unsigned char THM_MRead (unsigned char bBlock,unsigned short * pbLen,unsigned char *pdat )$/;"	f
+THM_MRead	ic_old.c	/^unsigned char THM_MRead (unsigned char bBlock,unsigned short * pbLen,unsigned char *pdat )$/;"	f
+THM_MReadValue	ic.c	/^unsigned char THM_MReadValue(unsigned char bBlock,unsigned char * pbValue,unsigned char * pbAddr)$/;"	f
+THM_MReadValue	ic_old.c	/^unsigned char THM_MReadValue(unsigned char bBlock,unsigned char * pbValue,unsigned char * pbAddr)$/;"	f
+THM_MRestore	ic.c	/^unsigned char THM_MRestore(unsigned char bBlock)$/;"	f
+THM_MRestore	ic_old.c	/^unsigned char THM_MRestore(unsigned char bBlock)$/;"	f
+THM_MSendFrame	ic.c	/^void THM_MSendFrame(unsigned char *buffer,unsigned short num)$/;"	f
+THM_MSendFrame	ic_old.c	/^void THM_MSendFrame(unsigned char *buffer,unsigned short num)$/;"	f
+THM_MTransfer	ic.c	/^unsigned char THM_MTransfer(unsigned char bBlock)$/;"	f
+THM_MTransfer	ic_old.c	/^unsigned char THM_MTransfer(unsigned char bBlock)$/;"	f
+THM_MWaitReadFrame	ic.c	/^unsigned char THM_MWaitReadFrame(unsigned short *len, unsigned char *buffer)$/;"	f
+THM_MWaitReadFrame	ic_old.c	/^unsigned char THM_MWaitReadFrame(unsigned short *len, unsigned char *buffer)$/;"	f
+THM_MWrite	ic.c	/^unsigned char THM_MWrite(unsigned char bBlock,unsigned char *pdat)$/;"	f
+THM_MWrite	ic_old.c	/^unsigned char THM_MWrite(unsigned char bBlock,unsigned char *pdat)$/;"	f
+THM_MWriteSectorTrailer	ic.c	/^unsigned char THM_MWriteSectorTrailer(unsigned char bBlock,unsigned char* pbKEYA, unsigned char * pbKEYB, unsigned char * pbAccessBits)$/;"	f
+THM_MWriteSectorTrailer	ic_old.c	/^unsigned char THM_MWriteSectorTrailer(unsigned char bBlock,unsigned char* pbKEYA, unsigned char * pbKEYB, unsigned char * pbAccessBits)$/;"	f
+THM_MWriteValue	ic.c	/^unsigned char THM_MWriteValue(unsigned char bBlock,unsigned char * pbValue,unsigned char bAddr)$/;"	f
+THM_MWriteValue	ic_old.c	/^unsigned char THM_MWriteValue(unsigned char bBlock,unsigned char * pbValue,unsigned char bAddr)$/;"	f
+THM_OpenRF	ic.c	/^void THM_OpenRF()$/;"	f
+THM_OpenRF	ic_old.c	/^void THM_OpenRF()$/;"	f
+THM_ReadReg	ic.c	/^unsigned char THM_ReadReg(unsigned char address)$/;"	f
+THM_ReadReg	ic_old.c	/^unsigned char THM_ReadReg(unsigned char address)$/;"	f
+THM_SendFrame	ic.c	/^void THM_SendFrame(unsigned char *buffer,unsigned short num)$/;"	f
+THM_SendFrame	ic_old.c	/^void THM_SendFrame(unsigned char *buffer,unsigned short num)$/;"	f
+THM_WaitReadFrame	ic.c	/^unsigned char THM_WaitReadFrame(unsigned short *len, unsigned char *buffer)$/;"	f
+THM_WaitReadFrame	ic_old.c	/^unsigned char THM_WaitReadFrame(unsigned short * len, unsigned char *buffer)$/;"	f
+THM_WriteReg	ic.c	/^void THM_WriteReg(unsigned char address,unsigned char content)$/;"	f
+THM_WriteReg	ic_old.c	/^void THM_WriteReg(unsigned char address,unsigned char content)$/;"	f
+TMRH	ic.c	36;"	d	file:
+TMRH	ic_old.c	35;"	d	file:
+TMRL	ic.c	37;"	d	file:
+TMRL	ic_old.c	36;"	d	file:
+TMROVER	ic.c	44;"	d	file:
+TMROVER	ic_old.c	43;"	d	file:
+TRANSFER_CMD	ic.c	/^	TRANSFER_CMD,$/;"	e	enum:__anon2	file:
+TRANSFER_CMD	ic_old.c	/^	TRANSFER_CMD,$/;"	e	enum:__anon3	file:
+TYPE_A	ic.c	50;"	d	file:
+TYPE_A	ic_old.c	49;"	d	file:
+TYPE_B	ic.c	51;"	d	file:
+TYPE_B	ic_old.c	50;"	d	file:
+T_MASK	md5.c	13;"	d	file:
+T_MASK	md5/md5.c	13;"	d	file:
+UART_RECEVICE_BUFFER	finger.c	/^int UART_RECEVICE_BUFFER[24]={0};			  \/\/应答包$/;"	v
+UART_RECEVICE_BUFFER	finger_old.c	/^int UART_RECEVICE_BUFFER[24]={0};			  \/\/应答包$/;"	v
+UART_STAT	ic.c	72;"	d	file:
+UART_STAT	ic_old.c	71;"	d	file:
+WRITE_CMD	ic.c	/^	WRITE_CMD,$/;"	e	enum:__anon2	file:
+WRITE_CMD	ic_old.c	/^	WRITE_CMD,$/;"	e	enum:__anon3	file:
+WUPA_CMD	ic.c	/^	WUPA_CMD$/;"	e	enum:__anon2	file:
+WUPA_CMD	ic_old.c	/^	WUPA_CMD$/;"	e	enum:__anon3	file:
+YXJ_FG	finger_old.c	/^int YXJ_FG[1024] = {$/;"	v
+ZAZ_ADDRESS_OVER	finger.c	26;"	d	file:
+ZAZ_ADDRESS_OVER	finger_old.c	21;"	d	file:
+ZAZ_CLEAR_TEMP_ERR	finger.c	32;"	d	file:
+ZAZ_CLEAR_TEMP_ERR	finger_old.c	27;"	d	file:
+ZAZ_COMM_ERR	finger.c	16;"	d	file:
+ZAZ_COMM_ERR	finger_old.c	11;"	d	file:
+ZAZ_DEL_TEMP_ERR	finger.c	31;"	d	file:
+ZAZ_DEL_TEMP_ERR	finger_old.c	26;"	d	file:
+ZAZ_DeletChar	finger.c	/^int ZAZ_DeletChar(int uiID_temp,int N_temp )$/;"	f
+ZAZ_DeletChar	finger_old.c	/^int ZAZ_DeletChar(int uiID_temp,int N_temp )$/;"	f
+ZAZ_Delet_All_Model	finger.c	/^int ZAZ_Delet_All_Model[6]={0x01,0x00,0x03,0x3d,0x00,0x41};\/\/删除指纹模块里所有的模版$/;"	v
+ZAZ_Delet_All_Model	finger_old.c	/^int ZAZ_Delet_All_Model[6]={0x01,0x00,0x03,0x3d,0x00,0x41};\/\/删除指纹模块里所有的模版$/;"	v
+ZAZ_Delete_Model	finger.c	/^int ZAZ_Delete_Model[10]={0x01,0x00,0x07,0x3C,0x00,0x00,0x00,0x01,0x00,0x45}; \/\/删除指定的模版$/;"	v
+ZAZ_Delete_Model	finger_old.c	/^int ZAZ_Delete_Model[10]={0x01,0x00,0x07,0x3C,0x00,0x00,0x00,0x01,0x00,0x45}; \/\/删除指定的模版$/;"	v
+ZAZ_DownChar	finger.c	/^int ZAZ_DownChar(int BufferID)$/;"	f
+ZAZ_DownChar	finger_old.c	/^int ZAZ_DownChar(int BufferID)$/;"	f
+ZAZ_Down_Image	finger.c	/^int ZAZ_Down_Image[6]    = {0x01,0x00,0x03,0x3b,0x00,0x3f};      \/\/下载图像$/;"	v
+ZAZ_Down_Image	finger_old.c	/^int ZAZ_Down_Image[6]    = {0x01,0x00,0x03,0x3b,0x00,0x3f};      \/\/下载图像$/;"	v
+ZAZ_Down_To_Buffer	finger.c	/^int ZAZ_Down_To_Buffer[7] = {0x01,0x00,0x04,0x39,0x01,0x00,0x3f};	\/\/上位机下载特征文件到CHAR_BUFFER$/;"	v
+ZAZ_Down_To_Buffer	finger_old.c	/^int ZAZ_Down_To_Buffer[7] = {0x01,0x00,0x04,0x39,0x01,0x00,0x3f};	\/\/上位机下载特征文件到CHAR_BUFFER$/;"	v
+ZAZ_Empty	finger.c	/^int ZAZ_Empty(void)$/;"	f
+ZAZ_Empty	finger_old.c	/^int ZAZ_Empty(void)$/;"	f
+ZAZ_FLASH_ERR	finger.c	38;"	d	file:
+ZAZ_FLASH_ERR	finger_old.c	33;"	d	file:
+ZAZ_FP_DISORDER	finger.c	21;"	d	file:
+ZAZ_FP_DISORDER	finger_old.c	16;"	d	file:
+ZAZ_FP_TOO_DRY	finger.c	19;"	d	file:
+ZAZ_FP_TOO_DRY	finger_old.c	14;"	d	file:
+ZAZ_FP_TOO_WET	finger.c	20;"	d	file:
+ZAZ_FP_TOO_WET	finger_old.c	15;"	d	file:
+ZAZ_FingerLIB_Search_Comparison	finger.c	/^int ZAZ_FingerLIB_Search_Comparison(int BufferID,int StartPage,int Finger_Num)$/;"	f
+ZAZ_FingerLIB_Search_Comparison	finger_old.c	/^int ZAZ_FingerLIB_Search_Comparison(int BufferID,int StartPage,int Finger_Num)$/;"	f
+ZAZ_GET_IMG_ERR	finger.c	18;"	d	file:
+ZAZ_GET_IMG_ERR	finger_old.c	13;"	d	file:
+ZAZ_GenChar	finger.c	/^int ZAZ_GenChar(int BufferID)$/;"	f
+ZAZ_GenChar	finger_old.c	/^int ZAZ_GenChar(int BufferID)$/;"	f
+ZAZ_GetImag	finger.c	/^int ZAZ_GetImag(void)$/;"	f
+ZAZ_GetImag	finger_old.c	/^int ZAZ_GetImag(void)$/;"	f
+ZAZ_Get_Img	finger.c	/^int ZAZ_Get_Img[6]       = {0x01,0x00,0x03,0x31,0x00,0x35};       \/\/录指纹图像$/;"	v
+ZAZ_Get_Img	finger_old.c	/^int ZAZ_Get_Img[6]       = {0x01,0x00,0x03,0x31,0x00,0x35};       \/\/录指纹图像$/;"	v
+ZAZ_HANGOVER_UNREMOVE	finger.c	37;"	d	file:
+ZAZ_HANGOVER_UNREMOVE	finger_old.c	32;"	d	file:
+ZAZ_INVALID_IMAGE	finger.c	36;"	d	file:
+ZAZ_INVALID_IMAGE	finger_old.c	31;"	d	file:
+ZAZ_INVALID_PASSWORD	finger.c	34;"	d	file:
+ZAZ_INVALID_PASSWORD	finger_old.c	29;"	d	file:
+ZAZ_Img_To_Buffer	finger.c	/^int ZAZ_Img_To_Buffer[7] = {0x01,0x00,0x04,0x32,0x01,0x00,0x38}; \/\/将图像放入到CHAR_BUFFER$/;"	v
+ZAZ_Img_To_Buffer	finger_old.c	/^int ZAZ_Img_To_Buffer[7] = {0x01,0x00,0x04,0x32,0x01,0x00,0x38}; \/\/将图像放入到CHAR_BUFFER$/;"	v
+ZAZ_LITTLE_FEATURE	finger.c	22;"	d	file:
+ZAZ_LITTLE_FEATURE	finger_old.c	17;"	d	file:
+ZAZ_Load_Char	finger.c	/^int ZAZ_Load_Char[9]  ={0x01,0x00,0x06,0x37,0x01,0x00,0x0A,0x00,0x49};	 \/\/将 flash 数据库中指定 ID 号的指纹模板读入到模板缓冲区$/;"	v
+ZAZ_Load_Char	finger_old.c	/^int ZAZ_Load_Char[9]  ={0x01,0x00,0x06,0x37,0x01,0x00,0x0A,0x00,0x49};	 \/\/将 flash 数据库中指定 ID 号的指纹模板读入到模板缓冲区$/;"	v
+ZAZ_Loadchar	finger.c	/^int ZAZ_Loadchar(int BufferID,int Finger_Num)$/;"	f
+ZAZ_Loadchar	finger_old.c	/^int ZAZ_Loadchar(int BufferID,int Finger_Num)$/;"	f
+ZAZ_MERGE_ERR	finger.c	25;"	d	file:
+ZAZ_MERGE_ERR	finger_old.c	20;"	d	file:
+ZAZ_Match	finger.c	/^int ZAZ_Match[6]       = {0x01,0x00,0x03,0x33,0x00,0x37};        \/\/精确比对两枚指纹特征$/;"	v
+ZAZ_Match	finger_old.c	/^int ZAZ_Match[6]       = {0x01,0x00,0x03,0x33,0x00,0x37};        \/\/精确比对两枚指纹特征$/;"	v
+ZAZ_Match_Comparison	finger.c	/^int ZAZ_Match_Comparison(int BufferID1,int BufferID2,int * code)$/;"	f
+ZAZ_Match_Comparison	finger_old.c	/^int ZAZ_Match_Comparison(int BufferID1,int BufferID2)$/;"	f
+ZAZ_NODEFINE_ERR	finger.c	39;"	d	file:
+ZAZ_NODEFINE_ERR	finger_old.c	34;"	d	file:
+ZAZ_NOT_MATCH	finger.c	23;"	d	file:
+ZAZ_NOT_MATCH	finger_old.c	18;"	d	file:
+ZAZ_NOT_SEARCHED	finger.c	24;"	d	file:
+ZAZ_NOT_SEARCHED	finger_old.c	19;"	d	file:
+ZAZ_NO_FINGER	finger.c	17;"	d	file:
+ZAZ_NO_FINGER	finger_old.c	12;"	d	file:
+ZAZ_OK	finger.c	15;"	d	file:
+ZAZ_OK	finger_old.c	10;"	d	file:
+ZAZ_Pack_Head	finger.c	/^int ZAZ_Pack_Head[6]     = {0xEF,0x01,0xFF,0xFF,0xFF,0xFF};      \/\/协议包头$/;"	v
+ZAZ_Pack_Head	finger_old.c	/^int ZAZ_Pack_Head[6]     = {0xEF,0x01,0xFF,0xFF,0xFF,0xFF};      \/\/协议包头$/;"	v
+ZAZ_READ_ERR	finger.c	27;"	d	file:
+ZAZ_READ_ERR	finger_old.c	22;"	d	file:
+ZAZ_RECV_ERR	finger.c	29;"	d	file:
+ZAZ_RECV_ERR	finger_old.c	24;"	d	file:
+ZAZ_RESET_ERR	finger.c	35;"	d	file:
+ZAZ_RESET_ERR	finger_old.c	30;"	d	file:
+ZAZ_ReadSysPara	finger.c	/^int * ZAZ_ReadSysPara(void)$/;"	f
+ZAZ_ReadSysPara	finger_old.c	/^int * ZAZ_ReadSysPara(void)$/;"	f
+ZAZ_Read_SysPara	finger.c	/^int ZAZ_Read_SysPara[6]={0x01,0x00,0x01,0x3f,0x00,0x41}; \/\/读系统参数$/;"	v
+ZAZ_Read_SysPara	finger_old.c	/^int ZAZ_Read_SysPara[6]={0x01,0x00,0x03,0x3f,0x00,0x43}; \/\/读系统参数$/;"	v
+ZAZ_RegModel	finger.c	/^int ZAZ_RegModel(void)$/;"	f
+ZAZ_RegModel	finger_old.c	/^int ZAZ_RegModel(void)$/;"	f
+ZAZ_Reg_Model	finger.c	/^int ZAZ_Reg_Model[6]     = {0x01,0x00,0x03,0x35,0x00,0x39};        \/\/将CHAR_BUFFER_1、2、3、4合成特征模版$/;"	v
+ZAZ_Reg_Model	finger_old.c	/^int ZAZ_Reg_Model[6]     = {0x01,0x00,0x03,0x35,0x00,0x39};        \/\/将CHAR_BUFFER_1、2、3、4合成特征模版$/;"	v
+ZAZ_SLEEP_ERR	finger.c	33;"	d	file:
+ZAZ_SLEEP_ERR	finger_old.c	28;"	d	file:
+ZAZ_Save_Finger	finger.c	/^int ZAZ_Save_Finger[9]={0x01,0x00,0x06,0x36,0x01,0x00,0x0B,0x00,0x49};\/\/将BUFFER1中的特征码存放到指定的位置$/;"	v
+ZAZ_Save_Finger	finger_old.c	/^int ZAZ_Save_Finger[9]={0x01,0x00,0x06,0x36,0x01,0x00,0x0B,0x00,0x49};\/\/将BUFFER1中的特征码存放到指定的位置$/;"	v
+ZAZ_Search	finger.c	/^int ZAZ_Search[11]     ={0x01,0x00,0x08,0x34,0x01,0x00,0x00,0x03,0xA1,0x00,0xe2}; \/\/搜索指纹搜索范围0 - 929$/;"	v
+ZAZ_Search	finger_old.c	/^int ZAZ_Search[11]     ={0x01,0x00,0x08,0x34,0x01,0x00,0x00,0x03,0xA1,0x00,0xe2}; \/\/搜索指纹搜索范围0 - 929$/;"	v
+ZAZ_Search_Comparison	finger.c	/^int ZAZ_Search_Comparison(int BufferID,int StartPage,int PageNum)$/;"	f
+ZAZ_Search_Comparison	finger_old.c	/^int ZAZ_Search_Comparison(int BufferID,int StartPage,int PageNum)$/;"	f
+ZAZ_Search_Finger	finger.c	/^int * ZAZ_Search_Finger(int BufferID,int StartPage,int PageNum)$/;"	f
+ZAZ_Search_Finger	finger_old.c	/^int * ZAZ_Search_Finger(int BufferID,int StartPage,int PageNum)$/;"	f
+ZAZ_SetSysPara	finger.c	/^int ZAZ_SetSysPara(void)$/;"	f
+ZAZ_SetSysPara	finger_old.c	/^int ZAZ_SetSysPara(void)$/;"	f
+ZAZ_Set_Syspara	finger.c	/^int ZAZ_Set_Syspara[8]   ={0x01,0x00,0x05,0x3e,0x05,0x02,0x00,0x4b};	 \/\/设置系统基本参数安全等级为2$/;"	v
+ZAZ_Set_Syspara	finger_old.c	/^int ZAZ_Set_Syspara[8]   ={0x01,0x00,0x05,0x3e,0x05,0x02,0x00,0x4b};	 \/\/设置系统基本参数安全等级为2$/;"	v
+ZAZ_StoreChar	finger.c	/^int ZAZ_StoreChar( int BuffID,int Finger_Num)$/;"	f
+ZAZ_StoreChar	finger_old.c	/^int ZAZ_StoreChar( int BuffID,int Finger_Num)$/;"	f
+ZAZ_TempleteNum	finger.c	/^int *ZAZ_TempleteNum(void)$/;"	f
+ZAZ_TempleteNum	finger_old.c	/^int *ZAZ_TempleteNum(void)$/;"	f
+ZAZ_Templete_Num	finger.c	/^int ZAZ_Templete_Num[6]  ={0x01,0x00,0x03,0x4D,0x00,0x51 };      \/\/获得模版总数															 $/;"	v
+ZAZ_Templete_Num	finger_old.c	/^int ZAZ_Templete_Num[6]  ={0x01,0x00,0x03,0x4D,0x00,0x51 };      \/\/获得模版总数															 $/;"	v
+ZAZ_Two_Match	finger.c	/^int * ZAZ_Two_Match(void)$/;"	f
+ZAZ_Two_Match	finger_old.c	/^int * ZAZ_Two_Match(void)$/;"	f
+ZAZ_UP_IMG_ERR	finger.c	30;"	d	file:
+ZAZ_UP_IMG_ERR	finger_old.c	25;"	d	file:
+ZAZ_UP_TEMP_ERR	finger.c	28;"	d	file:
+ZAZ_UP_TEMP_ERR	finger_old.c	23;"	d	file:
+ZAZ_UpChar	finger.c	/^int ZAZ_UpChar( int BufferID)$/;"	f
+ZAZ_UpChar	finger_old.c	/^int ZAZ_UpChar( int BufferID)$/;"	f
+ZAZ_Up_Buffer	finger.c	/^int ZAZ_Up_Buffer[7]    = {0x01,0x00,0x04,0x38,0x01,0x00,0x3e};  \/\/将CHAR_BUFFER上传给上位机$/;"	v
+ZAZ_Up_Buffer	finger_old.c	/^int ZAZ_Up_Buffer[7]    = {0x01,0x00,0x04,0x38,0x01,0x00,0x3e};  \/\/将CHAR_BUFFER上传给上位机$/;"	v
+ZAZ_Up_Image	finger.c	/^int ZAZ_Up_Image[6]      = {0x01,0x00,0x03,0x3a,0x00,0x3e};      \/\/上传图像$/;"	v
+ZAZ_Up_Image	finger_old.c	/^int ZAZ_Up_Image[6]      = {0x01,0x00,0x03,0x3a,0x00,0x3e};      \/\/上传图像$/;"	v
+ZAZ_add_new_user	finger.c	/^int ZAZ_add_new_user(int BufferID,int Finger_Num)$/;"	f
+ZAZ_add_new_user	finger_old.c	/^int ZAZ_add_new_user(int BufferID,int Finger_Num)$/;"	f
+ZAZ_addnewuser_To_Pc	finger.c	/^int ZAZ_addnewuser_To_Pc(int BufferID,int Finger_Num)$/;"	f
+ZAZ_addnewuser_To_Pc	finger_old.c	/^int ZAZ_addnewuser_To_Pc(int BufferID,int Finger_Num)$/;"	f
+ZAZ_flashlib_to_pc	finger.c	/^int ZAZ_flashlib_to_pc(int BufferID,int Finger_Num)$/;"	f
+ZAZ_flashlib_to_pc	finger_old.c	/^int ZAZ_flashlib_to_pc(int BufferID,int Finger_Num)$/;"	f
+__FINGER_H	finger.c	10;"	d	file:
+__FINGER_H	finger_old.c	5;"	d	file:
+abcd	md5.h	/^    md5_word_t abcd[4];		\/* digest buffer *\/$/;"	m	struct:md5_state_s
+abcd	md5/md5.h	/^    md5_word_t abcd[4];		\/* digest buffer *\/$/;"	m	struct:md5_state_s
+bigbyte	d3des.c	/^static unsigned long bigbyte[24] = {$/;"	v	file:
+blok	d3des.h	/^	unsigned long blok[2];$/;"	m	union:__anon1
+body	fingeropen.c	/^static int *body;$/;"	v	file:
+buf	md5.h	/^    md5_byte_t buf[64];		\/* accumulate block *\/$/;"	m	struct:md5_state_s
+buf	md5/md5.h	/^    md5_byte_t buf[64];		\/* accumulate block *\/$/;"	m	struct:md5_state_s
+byte	d3des.h	/^	unsigned char byte[8];$/;"	m	union:__anon1
+bytebit	d3des.c	/^static unsigned short bytebit[8]	= {$/;"	v	file:
+checksum	data_update.c	/^static unsigned  char checksum(char *data, int len)$/;"	f	file:
+comd	ic.c	/^unsigned char comd[14][7] ={$/;"	v
+comd	ic_old.c	/^unsigned char comd[14][7] ={$/;"	v
+cookey	d3des.c	/^static void cookey(raw1)$/;"	f	file:
+count	md5.h	/^    md5_word_t count[2];	\/* message length in bits, lsw first *\/$/;"	m	struct:md5_state_s
+count	md5/md5.h	/^    md5_word_t count[2];	\/* message length in bits, lsw first *\/$/;"	m	struct:md5_state_s
+cp2key	d3des.c	/^void cp2key(into)$/;"	f
+cp3key	d3des.c	/^void cp3key(into)$/;"	f
+cpDkey	d3des.h	101;"	d
+cpDkey	d3des.h	118;"	d
+cpkey	d3des.c	/^void cpkey(into)$/;"	f
+data	jnilib.c	/^	char data[1024*30];$/;"	m	struct:tag_encrypteddata	file:
+datap	data_update.c	/^	void *datap;$/;"	m	struct:tag_dataupmod	file:
+dataup_pthread	data_update.c	/^void* dataup_pthread(void *arg)$/;"	f
+dataup_pthread_modules_init	data_update.c	/^int dataup_pthread_modules_init(netdev_t *devname)$/;"	f
+dataup_pthread_modules_kill	data_update.c	/^int dataup_pthread_modules_kill(void)$/;"	f
+dataup_reply	data_update.c	/^static int dataup_reply(void* handle, int cmd, int leng, char *data)$/;"	f	file:
+dataupmod	data_update.c	/^static dataupmod_t dataupmod;$/;"	v	file:
+dataupmod_t	data_update.c	/^}dataupmod_t;$/;"	t	typeref:struct:tag_dataupmod	file:
+des	d3des.c	/^void des(inblock, outblock)$/;"	f
+des2key	d3des.c	/^void des2key(hexkey, mode)		\/* stomps on Kn3 too *\/$/;"	f
+des3key	d3des.c	/^void des3key(hexkey, mode)$/;"	f
+desDkey	d3des.h	60;"	d
+desfunc	d3des.c	/^static void desfunc(block, keys)$/;"	f	file:
+deskey	d3des.c	/^void deskey(key, edf)	\/* Thanks to James Gillogly & Phil Karn! *\/$/;"	f
+dev	data_update.c	/^	netdev_t dev;$/;"	m	struct:tag_dataupmod	file:
+encrypteddata	jnilib.c	/^}encrypteddata;$/;"	t	typeref:struct:tag_encrypteddata	file:
+fd	fingeropen.c	/^int fd;$/;"	v
+fd	ic.c	/^int fd, loops, status = 0;$/;"	v
+fd	ic_old.c	/^int fd, loops, status = 0;$/;"	v
+fd	read.c	/^int fd;$/;"	v
+fd_485	fingeropen.c	/^int fd_485;$/;"	v
+gKEYA	ic.c	/^unsigned char gKEYA[6];$/;"	v
+gKEYA	ic_old.c	/^unsigned char gKEYA[6];$/;"	v
+gKEYB	ic.c	/^unsigned char gKEYB[6];$/;"	v
+gKEYB	ic_old.c	/^unsigned char gKEYB[6];$/;"	v
+gUID	ic.c	/^unsigned char gUID[5];$/;"	v
+gUID	ic_old.c	/^unsigned char gUID[5];$/;"	v
+getBaudrate	read.c	/^static speed_t getBaudrate(jint baudrate)$/;"	f	file:
+getkey3	fingeropen.c	/^int getkey3()$/;"	f
+getkey3	read.c	/^int getkey3()$/;"	f
+head	jnilib.c	/^	char head[24];$/;"	m	struct:tag_encrypteddata	file:
+init_port	ic_old.c	/^int init_port(int fd,int baud_rate)$/;"	f
+init_port	jnilib.c	/^int init_port(int fd,int baud_rate)$/;"	f
+loops	ic.c	/^int fd, loops, status = 0;$/;"	v
+loops	ic_old.c	/^int fd, loops, status = 0;$/;"	v
+m	ic.c	/^unsigned char m[5] ={0x52,0x26,0x93,0x20};$/;"	v
+m	ic_old.c	/^unsigned char m[5] ={0x52,0x26,0x93,0x20};$/;"	v
+main	md5/test.c	/^int main()$/;"	f
+main	read.c	/^main()$/;"	f
+main	test.c	/^int main()$/;"	f
+make2key	d3des.c	/^void make2key(aptr, kptr)$/;"	f
+make3key	d3des.c	/^void make3key(aptr, kptr)$/;"	f
+makeDkey	d3des.h	90;"	d
+makekey	d3des.c	/^void makekey(aptr, kptr)$/;"	f
+md5_INCLUDED	md5.h	2;"	d
+md5_INCLUDED	md5/md5.h	2;"	d
+md5_append	md5.c	/^md5_append(md5_state_t *pms, const md5_byte_t *data, int nbytes)$/;"	f
+md5_append	md5/md5.c	/^md5_append(md5_state_t *pms, const md5_byte_t *data, int nbytes)$/;"	f
+md5_byte_t	md5.h	/^typedef unsigned char md5_byte_t; \/* 8-bit byte *\/$/;"	t
+md5_byte_t	md5/md5.h	/^typedef unsigned char md5_byte_t; \/* 8-bit byte *\/$/;"	t
+md5_finish	md5.c	/^md5_finish(md5_state_t *pms, md5_byte_t digest[16])$/;"	f
+md5_finish	md5/md5.c	/^md5_finish(md5_state_t *pms, md5_byte_t digest[16])$/;"	f
+md5_init	md5.c	/^md5_init(md5_state_t *pms)$/;"	f
+md5_init	md5/md5.c	/^md5_init(md5_state_t *pms)$/;"	f
+md5_process	md5.c	/^md5_process(md5_state_t *pms, const md5_byte_t *data \/*[64]*\/)$/;"	f	file:
+md5_process	md5/md5.c	/^md5_process(md5_state_t *pms, const md5_byte_t *data \/*[64]*\/)$/;"	f	file:
+md5_state_s	md5.h	/^typedef struct md5_state_s {$/;"	s
+md5_state_s	md5/md5.h	/^typedef struct md5_state_s {$/;"	s
+md5_state_t	md5.h	/^} md5_state_t;$/;"	t	typeref:struct:md5_state_s
+md5_state_t	md5/md5.h	/^} md5_state_t;$/;"	t	typeref:struct:md5_state_s
+md5_word_t	md5.h	/^typedef unsigned int md5_word_t; \/* 32-bit word *\/$/;"	t
+md5_word_t	md5/md5.h	/^typedef unsigned int md5_word_t; \/* 32-bit word *\/$/;"	t
+open_port	ic_old.c	/^int open_port(char * dev)$/;"	f
+open_port	jnilib.c	/^int open_port(char * dev)$/;"	f
+pc1	d3des.c	/^static unsigned char pc1[56] = {$/;"	v	file:
+pc2	d3des.c	/^static unsigned char pc2[48] = {$/;"	v	file:
+pthread_status	data_update.c	/^	int pthread_status;$/;"	m	struct:tag_dataupmod	file:
+readgps	gps.c	/^jstring readgps(JNIEnv* env,int fd,int len)$/;"	f
+readiccard	ic.c	/^jstring readiccard(JNIEnv* env,int fds)$/;"	f
+readiccard	ic_old.c	/^jstring readiccard(JNIEnv* env,int fds)$/;"	f
+recvtimeout	fingeropen.c	/^static int recvtimeout(int fd, char *buf, int leng, struct timeval *timeout)$/;"	f	file:
+scrunch	d3des.c	/^static void scrunch(outof, into)$/;"	f	file:
+status	ic.c	/^int fd, loops, status = 0;$/;"	v
+status	ic_old.c	/^int fd, loops, status = 0;$/;"	v
+strToJstring	jnilib.c	/^jstring strToJstring(JNIEnv* env, const char* pStr)$/;"	f
+tag_dataupmod	data_update.c	/^typedef struct tag_dataupmod{$/;"	s	file:
+tag_encrypteddata	jnilib.c	/^typedef struct tag_encrypteddata{$/;"	s	file:
+tattr	data_update.c	/^	pthread_attr_t tattr;$/;"	m	struct:tag_dataupmod	file:
+temp	ic.c	/^unsigned char temp[20];$/;"	v
+temp	ic_old.c	/^unsigned char temp[20];$/;"	v
+test_dataup_pthread_status	data_update.c	/^int test_dataup_pthread_status(void)$/;"	f
+tid	data_update.c	/^	pthread_t tid;$/;"	m	struct:tag_dataupmod	file:
+totrot	d3des.c	/^static unsigned char totrot[16] = {$/;"	v	file:
+unscrun	d3des.c	/^static void unscrun(outof, into)$/;"	f	file:
+use2key	d3des.c	/^void use2key(from)				\/* stomps on Kn3 too *\/$/;"	f
+use3key	d3des.c	/^void use3key(from)$/;"	f
+useDkey	d3des.h	100;"	d
+useDkey	d3des.h	117;"	d
+usekey	d3des.c	/^void usekey(from)$/;"	f
+word	d3des.h	/^	unsigned short word[4];$/;"	m	union:__anon1
+write_buf	read.c	/^write_buf(char a)$/;"	f

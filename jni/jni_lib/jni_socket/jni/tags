@@ -1,0 +1,74 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ERR_ACCEPT	sockserver.h	78;"	d
+ERR_BIND	sockserver.h	76;"	d
+ERR_CONNECT	sockserver.h	75;"	d
+ERR_CREATSOCKET	sockserver.h	74;"	d
+ERR_FD	sockserver.h	79;"	d
+ERR_LINSTEN	sockserver.h	77;"	d
+ERR_MALLOC	sockserver.h	73;"	d
+ERR_RECV	sockserver.h	81;"	d
+ERR_SEND	sockserver.h	80;"	d
+ERR_TOOMANYSOCKET	sockserver.h	72;"	d
+ERR_TYPE	sockserver.h	84;"	d
+ERR_UDP_RECV	sockserver.h	83;"	d
+ERR_UDP_SEND	sockserver.h	82;"	d
+FREE_CLIENT	sockserverlib_api.h	22;"	d
+FREE_CLINT	sockserver.h	94;"	d
+FREE_SERVER	sockserver.h	93;"	d
+FREE_SERVER	sockserverlib_api.h	21;"	d
+INVALIDFD	sockserver.h	91;"	d
+JPNETRECVTRYTIME	sockserver.h	95;"	d
+JUDGECFD	sockserver.h	89;"	d
+JUDGESFD	sockserver.h	90;"	d
+MAXERRNO	sockserver.h	86;"	d
+MAXSOCKETNO	sockserver.h	88;"	d
+PACKET_LENG	sockserver.h	37;"	d
+REVERSE16	sockserver.h	38;"	d
+REVERSE32	sockserver.h	39;"	d
+SUCCEESS	sockserver.h	71;"	d
+__SOCKSERVERLIB_API_H__	sockserverlib_api.h	2;"	d
+__SOCKSERVER_H__	sockserver.h	2;"	d
+__cmr_msglib	sockserver.h	/^typedef struct __cmr_msglib{$/;"	s
+__msglib_errno	sockserver.h	/^typedef struct __msglib_errno{$/;"	s
+c_addr	sockserver.h	/^	struct sockaddr_in c_addr;$/;"	m	struct:dtmsg	typeref:struct:dtmsg::sockaddr_in
+c_addrsize	sockserver.h	/^	socklen_t c_addrsize;$/;"	m	struct:dtmsg
+cfd	sockserver.h	/^	int cfd;$/;"	m	struct:dtmsg
+cmr_msglib_t	sockserver.h	/^}cmr_msglib_t;$/;"	t	typeref:struct:__cmr_msglib
+dtcmr_accept	sockserver.c	/^int dtcmr_accept(int fd)$/;"	f
+dtcmr_client_creat	sockserver.c	/^int dtcmr_client_creat(char *serverip, short port, int type)$/;"	f
+dtcmr_free	sockserver.c	/^void dtcmr_free(int fd)$/;"	f
+dtcmr_msg_t	sockserver.h	/^}dtcmr_msg_t;$/;"	t	typeref:struct:dtmsg
+dtcmr_rcvtimeout	sockserver.c	/^static int dtcmr_rcvtimeout(int fd, char *buf, int leng, struct timeval *timeout)$/;"	f	file:
+dtcmr_recv	sockserver.c	/^int dtcmr_recv(int fd, char *buf, int leng) $/;"	f
+dtcmr_recv_timeout	sockserver.c	/^int dtcmr_recv_timeout(int fd, char *buf, int leng, struct timeval *timeout) $/;"	f
+dtcmr_send	sockserver.c	/^int dtcmr_send(int fd, char *buf, int leng)$/;"	f
+dtcmr_serv_creat	sockserver.c	/^int dtcmr_serv_creat(short sport, int listenback, int type)$/;"	f
+dtcmr_shotdown	sockserver.c	/^void dtcmr_shotdown(int fd, int flags)$/;"	f
+dtcmr_udp_recv	sockserver.c	/^int dtcmr_udp_recv(int fd, char *buf, int leng) $/;"	f
+dtcmr_udp_send	sockserver.c	/^int dtcmr_udp_send(int fd, char *buf, int leng)$/;"	f
+dtmsg	sockserver.h	/^	dtcmr_msg_t *dtmsg;$/;"	m	struct:__cmr_msglib
+dtmsg	sockserver.h	/^typedef struct dtmsg{$/;"	s
+errnb	sockserver.h	/^	int errnb;$/;"	m	struct:__msglib_errno
+errstr	sockserver.h	/^	char *errstr;$/;"	m	struct:__msglib_errno
+freeresource	sockserver.c	/^static inline void freeresource(int fd) $/;"	f	file:
+getminmsglibfd	sockserver.c	/^static inline int getminmsglibfd(void)$/;"	f	file:
+getmsgliberrinfo	sockserver.c	/^char *getmsgliberrinfo(int errnb)$/;"	f
+handle_error	sockserver.h	34;"	d
+judgefd	sockserver.c	/^static inline int judgefd(int fd, int flags)$/;"	f	file:
+main	server.c	/^int main(int argc,char * argv[]) $/;"	f
+msgfd	sockserver.h	/^	int msgfd;$/;"	m	struct:__cmr_msglib
+msglib_errno_t	sockserver.h	/^}msglib_errno_t;$/;"	t	typeref:struct:__msglib_errno
+msgliberr_table	sockserver.c	/^msglib_errno_t msgliberr_table[] = {$/;"	v
+msglibfd	sockserver.c	/^static cmr_msglib_t msglibfd[MAXSOCKETNO];$/;"	v	file:
+recvmsg	sockserver.h	/^	long recvmsg[PACKET_LENG];$/;"	m	struct:dtmsg
+recvmsgleng	sockserver.h	/^	int recvmsgleng;	$/;"	m	struct:dtmsg
+s_addr	sockserver.h	/^	struct sockaddr_in s_addr;$/;"	m	struct:dtmsg	typeref:struct:dtmsg::sockaddr_in
+s_addrsize	sockserver.h	/^	socklen_t s_addrsize;$/;"	m	struct:dtmsg
+sendmsg	sockserver.h	/^	long sendmsg[PACKET_LENG];$/;"	m	struct:dtmsg
+sendmsgleng	sockserver.h	/^	int sendmsgleng;	$/;"	m	struct:dtmsg
+sfd	sockserver.h	/^	int sfd;$/;"	m	struct:dtmsg

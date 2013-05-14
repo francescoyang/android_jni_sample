@@ -1,0 +1,129 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ANTI	ictest.c	/^unsigned char ANTI[3] = { 0x2,0x93,0x20 }; $/;"	v
+ANTI_CMD	ictest.c	/^	ANTI_CMD,$/;"	e	enum:__anon1	file:
+AUTHA	ictest.c	/^unsigned char AUTHA[2] = { 0x2,0x60 };$/;"	v
+AUTHA_CMD	ictest.c	/^	AUTHA_CMD,$/;"	e	enum:__anon1	file:
+AUTHB_CMD	ictest.c	/^	AUTHB_CMD,$/;"	e	enum:__anon1	file:
+BPOS	ictest.c	35;"	d	file:
+CERR	ictest.c	45;"	d	file:
+COL_STAT	ictest.c	76;"	d	file:
+CRCERR	ictest.c	40;"	d	file:
+CRCH	ictest.c	31;"	d	file:
+CRCL	ictest.c	32;"	d	file:
+CRCSEL	ictest.c	25;"	d	file:
+CRYPTO1_CTRL	ictest.c	70;"	d	file:
+Close_ic_dev	ictest.c	/^int Close_ic_dev(int fd)$/;"	f
+DATA	ictest.c	21;"	d	file:
+DATA0	ictest.c	71;"	d	file:
+DATA1	ictest.c	72;"	d	file:
+DATA2	ictest.c	73;"	d	file:
+DATA3	ictest.c	74;"	d	file:
+DATA4	ictest.c	75;"	d	file:
+DATOVER	ictest.c	42;"	d	file:
+DECREMENT_CMD	ictest.c	/^	DECREMENT_CMD,$/;"	e	enum:__anon1	file:
+EGT	ictest.c	24;"	d	file:
+ETK	ictest.c	50;"	d	file:
+FCONB	ictest.c	23;"	d	file:
+FEND	ictest.c	39;"	d	file:
+FERR	ictest.c	43;"	d	file:
+FINGE_DEV	ictest.c	83;"	d	file:
+FINGE_DEV	uartio.h	5;"	d
+FM_CTRL	ictest.c	68;"	d	file:
+Get_ic_num	ictest.c	/^int Get_ic_num(int fd, char *rd_id)$/;"	f
+HLTA	ictest.c	/^unsigned char HLTA[2] = {0x1,0x52};$/;"	v
+HLTA_CMD	ictest.c	/^	HLTA_CMD,$/;"	e	enum:__anon1	file:
+IC_DEV	ictest.c	82;"	d	file:
+IC_DEV	uartio.h	4;"	d
+INCREMENT_CMD	ictest.c	/^	INCREMENT_CMD,$/;"	e	enum:__anon1	file:
+INTCON	ictest.c	28;"	d	file:
+ISO15693	ictest.c	49;"	d	file:
+LOCAL_CFLAGS	Android.mk	/^LOCAL_CFLAGS := $/;"	m
+LOCAL_LDLIBS	Android.mk	/^LOCAL_LDLIBS :=	$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE:= ictest$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES :=$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES:= \\$/;"	m
+MBLOCK_SIZE	ictest.c	62;"	d	file:
+MIFARE	ictest.c	51;"	d	file:
+MWALLET_SIZE	ictest.c	63;"	d	file:
+Open_ic_dev	ictest.c	/^int Open_ic_dev(int baudrate)$/;"	f
+PERR	ictest.c	44;"	d	file:
+PSEL	ictest.c	22;"	d	file:
+PWTH	ictest.c	37;"	d	file:
+RCV_BAUD_106K	ictest.c	57;"	d	file:
+RCV_BAUD_212K	ictest.c	58;"	d	file:
+RCV_BAUD_424K	ictest.c	59;"	d	file:
+RCV_BAUD_848K	ictest.c	60;"	d	file:
+READ_CMD	ictest.c	/^	READ_CMD,$/;"	e	enum:__anon1	file:
+REQA	ictest.c	/^unsigned char REQA[2] = {0x1,0x26};$/;"	v
+REQA_CMD	ictest.c	/^	REQA_CMD,$/;"	e	enum:__anon1	file:
+RESTORE_CMD	ictest.c	/^	RESTORE_CMD,$/;"	e	enum:__anon1	file:
+RSCH	ictest.c	29;"	d	file:
+RSCL	ictest.c	30;"	d	file:
+RSTAT	ictest.c	26;"	d	file:
+SCNTL	ictest.c	27;"	d	file:
+SELECT	ictest.c	/^unsigned char SELECT[3] = { 0x7,0x93,0x70 }; $/;"	v
+SELECT_CMD	ictest.c	/^	SELECT_CMD,$/;"	e	enum:__anon1	file:
+SMOD	ictest.c	36;"	d	file:
+SND_BAUD_106K	ictest.c	52;"	d	file:
+SND_BAUD_212K	ictest.c	53;"	d	file:
+SND_BAUD_424K	ictest.c	54;"	d	file:
+SND_BAUD_848K	ictest.c	55;"	d	file:
+SND_CTRL	ictest.c	77;"	d	file:
+SPI_RecvBuff	ictest.c	/^void SPI_RecvBuff(unsigned char *buf,unsigned int num)$/;"	f
+SPI_SendBuff	ictest.c	/^void SPI_SendBuff(unsigned char *buf,unsigned int num)$/;"	f
+STAT_CTRL	ictest.c	67;"	d	file:
+THM_CloseRF	ictest.c	/^void THM_CloseRF()$/;"	f
+THM_FindCard	ictest.c	/^unsigned char THM_FindCard(unsigned char * b_uid)$/;"	f
+THM_MAuthentication	ictest.c	/^unsigned char THM_MAuthentication(unsigned char bKeyNo,unsigned char bBlock)$/;"	f
+THM_MDecrement	ictest.c	/^unsigned char THM_MDecrement(unsigned char bBlock,unsigned char *pbValue )$/;"	f
+THM_MFindCard	ictest.c	/^unsigned char THM_MFindCard(unsigned char * b_uid)$/;"	f
+THM_MHLTA	ictest.c	/^void THM_MHLTA(void)$/;"	f
+THM_MIncrement	ictest.c	/^unsigned char THM_MIncrement(unsigned char bBlock,unsigned char *pbValue )$/;"	f
+THM_MInitialKEY	ictest.c	/^void THM_MInitialKEY(unsigned char * keya, unsigned char * keyb) $/;"	f
+THM_MRead	ictest.c	/^unsigned char THM_MRead (unsigned char bBlock,unsigned short * pbLen,unsigned char *pdat )$/;"	f
+THM_MReadValue	ictest.c	/^unsigned char THM_MReadValue(unsigned char bBlock,unsigned char * pbValue,unsigned char * pbAddr)$/;"	f
+THM_MRestore	ictest.c	/^unsigned char THM_MRestore(unsigned char bBlock)$/;"	f
+THM_MSendFrame	ictest.c	/^void THM_MSendFrame(unsigned char *buffer,unsigned short num)$/;"	f
+THM_MTransfer	ictest.c	/^unsigned char THM_MTransfer(unsigned char bBlock)$/;"	f
+THM_MWaitReadFrame	ictest.c	/^unsigned char THM_MWaitReadFrame(unsigned short *len, unsigned char *buffer)$/;"	f
+THM_MWrite	ictest.c	/^unsigned char THM_MWrite(unsigned char bBlock,unsigned char *pdat)$/;"	f
+THM_MWriteSectorTrailer	ictest.c	/^unsigned char THM_MWriteSectorTrailer(unsigned char bBlock,unsigned char* pbKEYA, unsigned char * pbKEYB, unsigned char * pbAccessBits)$/;"	f
+THM_MWriteValue	ictest.c	/^unsigned char THM_MWriteValue(unsigned char bBlock,unsigned char * pbValue,unsigned char bAddr)$/;"	f
+THM_OpenRF	ictest.c	/^void THM_OpenRF()$/;"	f
+THM_ReadReg	ictest.c	/^unsigned char THM_ReadReg(unsigned char address)$/;"	f
+THM_SendFrame	ictest.c	/^void THM_SendFrame(unsigned char *buffer,unsigned short num)$/;"	f
+THM_WaitReadFrame	ictest.c	/^unsigned char THM_WaitReadFrame(unsigned short *len, unsigned char *buffer)$/;"	f
+THM_WriteReg	ictest.c	/^void THM_WriteReg(unsigned char address,unsigned char content)$/;"	f
+TMRH	ictest.c	33;"	d	file:
+TMRL	ictest.c	34;"	d	file:
+TMROVER	ictest.c	41;"	d	file:
+TRANSFER_CMD	ictest.c	/^	TRANSFER_CMD,$/;"	e	enum:__anon1	file:
+TYPE_A	ictest.c	47;"	d	file:
+TYPE_B	ictest.c	48;"	d	file:
+UARTIO_H	ictest.c	80;"	d	file:
+UARTIO_H	uartio.h	2;"	d
+UART_STAT	ictest.c	69;"	d	file:
+WRITE_CMD	ictest.c	/^	WRITE_CMD,$/;"	e	enum:__anon1	file:
+WUPA_CMD	ictest.c	/^	WUPA_CMD$/;"	e	enum:__anon1	file:
+comd	ictest.c	/^unsigned char comd[14][7] ={$/;"	v
+fd_ic_card	ictest.c	/^int fd_ic_card=0, loops, status = 0;$/;"	v
+gKEYA	ictest.c	/^unsigned char gKEYA[6];$/;"	v
+gKEYB	ictest.c	/^unsigned char gKEYB[6];$/;"	v
+gUID	ictest.c	/^unsigned char gUID[5];$/;"	v
+getBaudrate	ictest.c	/^static speed_t getBaudrate(int baudrate)$/;"	f	file:
+loops	ictest.c	/^int fd_ic_card=0, loops, status = 0;$/;"	v
+m	ictest.c	/^unsigned char m[5] ={0x52,0x26,0x93,0x20};$/;"	v
+main	ictest.c	/^int main()$/;"	f
+open_port	ictest.c	/^int open_port(int comport)$/;"	f
+open_port	uartio.c	/^int open_port(int comport)$/;"	f
+open_serial	ictest.c	/^open_serial()$/;"	f
+set_opt	ictest.c	/^int set_opt(int fd, int nspeed, int nbits, char nevent, int nstop)$/;"	f
+set_opt	uartio.c	/^int set_opt(int fd, int nspeed, int nbits, char nevent, int nstop)$/;"	f
+status	ictest.c	/^int fd_ic_card=0, loops, status = 0;$/;"	v
+temp	ictest.c	/^unsigned char temp[20];$/;"	v

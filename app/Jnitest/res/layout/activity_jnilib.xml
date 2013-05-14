@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/main1"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+
+xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/txtPeri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+     />
+    
+	<Button android:id="@+id/button1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="readfile"
+	android:layout_x="93px"
+	android:layout_y="44px"></Button>
+	
+	<Button android:id="@+id/button2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="readgps"
+	android:layout_x="93px"
+	android:layout_y="112px"></Button>
+	
+	<Button android:id="@+id/button3"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="readicid "
+	android:layout_x="93px"
+	android:layout_y="185px"></Button>
+	
+	<Button android:id="@+id/button4"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="rdfinger "
+	android:layout_x="93px"
+	android:layout_y="255px"></Button>
+	
+	<Button android:id="@+id/button5"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="d3dtest "
+	android:layout_x="93px"
+	android:layout_y="325px"></Button>
+	
+	<Button android:id="@+id/md5"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="md5test "
+	android:layout_x="210px"
+	android:layout_y="44px"></Button>
+	
+</AbsoluteLayout>

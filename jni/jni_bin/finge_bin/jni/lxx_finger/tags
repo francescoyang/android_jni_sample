@@ -1,0 +1,138 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AHBPrescTable	system_stm32f4xx.c	/^  __I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};$/;"	v
+BUFFER_NUM	finger.h	/^int BUFFER_NUM;$/;"	v
+CHAR_BUFFER_1	finger.h	35;"	d
+CHAR_BUFFER_1	main.c	4;"	d	file:
+CHAR_BUFFER_2	finger.h	36;"	d
+CHAR_BUFFER_2	main.c	5;"	d	file:
+CHAR_BUFFER_3	finger.h	37;"	d
+CHAR_BUFFER_3	main.c	6;"	d	file:
+CHAR_BUFFER_4	finger.h	38;"	d
+CHAR_BUFFER_4	main.c	7;"	d	file:
+Continue_input_Finger_Num	main.c	10;"	d	file:
+Delay	Retarget.c	/^void Delay(uint32_t nTime)$/;"	f
+FINGERLIB_SUM	main.c	9;"	d	file:
+FINGERPRINT_Cmd_Get_Img	finger.c	/^ static int FINGERPRINT_Cmd_Get_Img(void)$/;"	f	file:
+FINGERPRINT_Img_To_Buffer	finger.c	/^static void FINGERPRINT_Img_To_Buffer(int BufferID)$/;"	f	file:
+FINGERPRINT_Recevice_Data	finger.c	/^int FINGERPRINT_Recevice_Data(int ucLength)$/;"	f
+ITM_RxBuffer	Serial.c	/^volatile int32_t ITM_RxBuffer;$/;"	v
+MODEL_BUFFER	finger.h	39;"	d
+MODEL_BUFFER	main.c	8;"	d	file:
+PLL_M	system_stm32f4xx.c	149;"	d	file:
+PLL_N	system_stm32f4xx.c	150;"	d	file:
+PLL_P	system_stm32f4xx.c	153;"	d	file:
+PLL_Q	system_stm32f4xx.c	156;"	d	file:
+SER_GetChar1	Serial.c	/^ int32_t SER_GetChar1 (void) {$/;"	f
+SER_GetChar2	Serial.c	/^int32_t SER_GetChar2 (void) {$/;"	f
+SER_GetChar3	Serial.c	/^int SER_GetChar3 (void) {$/;"	f
+SER_Init1	Serial.c	/^void SER_Init1 (void) {$/;"	f
+SER_Init2	Serial.c	/^void SER_Init2 (void) {$/;"	f
+SER_Init3	Serial.c	/^void SER_Init3 (void) {$/;"	f
+SER_PutChar1	Serial.c	/^ int32_t SER_PutChar1 (int32_t ch) {$/;"	f
+SER_PutChar2	Serial.c	/^int32_t SER_PutChar2 (int32_t ch) {$/;"	f
+SER_PutChar3	Serial.c	/^int SER_PutChar3 (int ch) {$/;"	f
+STDERR	Retarget.c	33;"	d	file:
+STDIN	Retarget.c	31;"	d	file:
+STDOUT	Retarget.c	32;"	d	file:
+SetSysClock	system_stm32f4xx.c	/^static void SetSysClock(void)$/;"	f	file:
+Subsequent_RECEVICE_BUFFER	finger.h	/^int Subsequent_RECEVICE_BUFFER[2048];				  \/\/后续包	  $/;"	v
+Subsequent_RECEVICE_DATA	finger.h	/^int Subsequent_RECEVICE_DATA[1024]={0};$/;"	v
+Subsequent_RECEVICE_LENGTH	finger.h	/^int Subsequent_RECEVICE_LENGTH[24]={0};$/;"	v
+Subsequent_RECEVICE_SUM	finger.h	/^int Subsequent_RECEVICE_SUM[10]={0};$/;"	v
+Subsequent_Recevice_Data	finger.c	/^static int Subsequent_Recevice_Data()$/;"	f	file:
+Subsequent_Send_Data	finger.c	/^static int Subsequent_Send_Data(int *Subsequent_RECEVICE_DATA)$/;"	f	file:
+SysPara_num	finger.h	/^int SysPara_num[3]={0x04,0x05,0x06};$/;"	v
+SystemCoreClock	system_stm32f4xx.c	/^  uint32_t SystemCoreClock = 168000000;$/;"	v
+SystemCoreClockUpdate	system_stm32f4xx.c	/^void SystemCoreClockUpdate(void)$/;"	f
+SystemInit	system_stm32f4xx.c	/^void SystemInit(void)$/;"	f
+SystemInit_ExtMemCtl	system_stm32f4xx.c	/^void SystemInit_ExtMemCtl(void)$/;"	f
+TimingDelay	Retarget.c	/^static int TimingDelay;$/;"	v	file:
+UART_RECEVICE_BUFFER	finger.h	/^int UART_RECEVICE_BUFFER[24]={0};			  \/\/应答包$/;"	v
+VECT_TAB_OFFSET	system_stm32f4xx.c	143;"	d	file:
+ZAZ_ADDRESS_OVER	finger.h	18;"	d
+ZAZ_CLEAR_TEMP_ERR	finger.h	24;"	d
+ZAZ_COMM_ERR	finger.h	8;"	d
+ZAZ_DEL_TEMP_ERR	finger.h	23;"	d
+ZAZ_DeletChar	finger.c	/^int ZAZ_DeletChar(int uiID_temp,int N_temp )$/;"	f
+ZAZ_Delet_All_Model	finger.h	/^int ZAZ_Delet_All_Model[6]={0x01,0x00,0x03,0x3d,0x00,0x41};\/\/删除指纹模块里所有的模版$/;"	v
+ZAZ_Delete_Model	finger.h	/^int ZAZ_Delete_Model[10]={0x01,0x00,0x07,0x3C,0x00,0x00,0x00,0x01,0x00,0x45}; \/\/删除指定的模版$/;"	v
+ZAZ_DownChar	finger.c	/^int ZAZ_DownChar(int BufferID)$/;"	f
+ZAZ_Down_Image	finger.h	/^int ZAZ_Down_Image[6]    = {0x01,0x00,0x03,0x3b,0x00,0x3f};      \/\/下载图像$/;"	v
+ZAZ_Down_To_Buffer	finger.h	/^int ZAZ_Down_To_Buffer[7] = {0x01,0x00,0x04,0x39,0x01,0x00,0x3f};	\/\/上位机下载特征文件到CHAR_BUFFER$/;"	v
+ZAZ_Empty	finger.c	/^int ZAZ_Empty(void)$/;"	f
+ZAZ_FLASH_ERR	finger.h	30;"	d
+ZAZ_FP_DISORDER	finger.h	13;"	d
+ZAZ_FP_TOO_DRY	finger.h	11;"	d
+ZAZ_FP_TOO_WET	finger.h	12;"	d
+ZAZ_FingerLIB_Search_Comparison	finger.c	/^int ZAZ_FingerLIB_Search_Comparison(int BufferID,int StartPage,int Finger_Num)$/;"	f
+ZAZ_GET_IMG_ERR	finger.h	10;"	d
+ZAZ_GenChar	finger.c	/^int ZAZ_GenChar(int BufferID)$/;"	f
+ZAZ_GetImag	finger.c	/^int ZAZ_GetImag(void)$/;"	f
+ZAZ_Get_Img	finger.h	/^int ZAZ_Get_Img[6]       = {0x01,0x00,0x03,0x31,0x00,0x35};       \/\/录指纹图像$/;"	v
+ZAZ_HANGOVER_UNREMOVE	finger.h	29;"	d
+ZAZ_INVALID_IMAGE	finger.h	28;"	d
+ZAZ_INVALID_PASSWORD	finger.h	26;"	d
+ZAZ_Img_To_Buffer	finger.h	/^int ZAZ_Img_To_Buffer[7] = {0x01,0x00,0x04,0x32,0x01,0x00,0x38}; \/\/将图像放入到CHAR_BUFFER$/;"	v
+ZAZ_LITTLE_FEATURE	finger.h	14;"	d
+ZAZ_Load_Char	finger.h	/^int ZAZ_Load_Char[9]  ={0x01,0x00,0x06,0x37,0x01,0x00,0x0A,0x00,0x49};	 \/\/将 flash 数据库中指定 ID 号的指纹模板读入到模板缓冲区$/;"	v
+ZAZ_Loadchar	finger.c	/^int ZAZ_Loadchar(int BufferID,int Finger_Num)$/;"	f
+ZAZ_MERGE_ERR	finger.h	17;"	d
+ZAZ_Match	finger.h	/^int ZAZ_Match[6]       = {0x01,0x00,0x03,0x33,0x00,0x37};        \/\/精确比对两枚指纹特征$/;"	v
+ZAZ_Match_Comparison	finger.c	/^int ZAZ_Match_Comparison(int BufferID1,int BufferID2)$/;"	f
+ZAZ_NODEFINE_ERR	finger.h	31;"	d
+ZAZ_NOT_MATCH	finger.h	15;"	d
+ZAZ_NOT_SEARCHED	finger.h	16;"	d
+ZAZ_NO_FINGER	finger.h	9;"	d
+ZAZ_OK	finger.h	7;"	d
+ZAZ_Pack_Head	finger.h	/^int ZAZ_Pack_Head[6]     = {0xEF,0x01,0xFF,0xFF,0xFF,0xFF};      \/\/协议包头$/;"	v
+ZAZ_READ_ERR	finger.h	19;"	d
+ZAZ_RECV_ERR	finger.h	21;"	d
+ZAZ_RESET_ERR	finger.h	27;"	d
+ZAZ_ReadSysPara	finger.c	/^int * ZAZ_ReadSysPara(void)$/;"	f
+ZAZ_Read_SysPara	finger.h	/^int ZAZ_Read_SysPara[6]={0x01,0x00,0x03,0x3f,0x00,0x43}; \/\/读系统参数$/;"	v
+ZAZ_RegModel	finger.c	/^int ZAZ_RegModel(void)$/;"	f
+ZAZ_Reg_Model	finger.h	/^int ZAZ_Reg_Model[6]     = {0x01,0x00,0x03,0x35,0x00,0x39};        \/\/将CHAR_BUFFER_1、2、3、4合成特征模版$/;"	v
+ZAZ_SLEEP_ERR	finger.h	25;"	d
+ZAZ_Save_Finger	finger.h	/^int ZAZ_Save_Finger[9]={0x01,0x00,0x06,0x36,0x01,0x00,0x0B,0x00,0x49};\/\/将BUFFER1中的特征码存放到指定的位置$/;"	v
+ZAZ_Search	finger.h	/^int ZAZ_Search[11]     ={0x01,0x00,0x08,0x34,0x01,0x00,0x00,0x03,0xA1,0x00,0xe2}; \/\/搜索指纹搜索范围0 - 929$/;"	v
+ZAZ_Search_Comparison	finger.c	/^int ZAZ_Search_Comparison(int BufferID,int StartPage,int PageNum)$/;"	f
+ZAZ_Search_Finger	finger.c	/^int * ZAZ_Search_Finger(int BufferID,int StartPage,int PageNum)$/;"	f
+ZAZ_SetSysPara	finger.c	/^int ZAZ_SetSysPara(void)$/;"	f
+ZAZ_Set_Syspara	finger.h	/^int ZAZ_Set_Syspara[8]   ={0x01,0x00,0x05,0x3e,0x05,0x02,0x00,0x4b};	 \/\/设置系统基本参数安全等级为2$/;"	v
+ZAZ_StoreChar	finger.c	/^int ZAZ_StoreChar( int BuffID,int Finger_Num)$/;"	f
+ZAZ_TempleteNum	finger.c	/^int *ZAZ_TempleteNum(void)$/;"	f
+ZAZ_Templete_Num	finger.h	/^int ZAZ_Templete_Num[6]  ={0x01,0x00,0x03,0x4D,0x00,0x51 };      \/\/获得模版总数															 $/;"	v
+ZAZ_Two_Match	finger.c	/^int * ZAZ_Two_Match(void)$/;"	f
+ZAZ_UP_IMG_ERR	finger.h	22;"	d
+ZAZ_UP_TEMP_ERR	finger.h	20;"	d
+ZAZ_UpChar	finger.c	/^int ZAZ_UpChar( int BufferID)$/;"	f
+ZAZ_Up_Buffer	finger.h	/^int ZAZ_Up_Buffer[7]    = {0x01,0x00,0x04,0x38,0x01,0x00,0x3e};  \/\/将CHAR_BUFFER上传给上位机$/;"	v
+ZAZ_Up_Image	finger.h	/^int ZAZ_Up_Image[6]      = {0x01,0x00,0x03,0x3a,0x00,0x3e};      \/\/上传图像$/;"	v
+ZAZ_add_new_user	finger.c	/^int ZAZ_add_new_user(int BufferID,int Finger_Num)$/;"	f
+ZAZ_addnewuser_To_Pc	finger.c	/^int ZAZ_addnewuser_To_Pc(int BufferID,int Finger_Num)$/;"	f
+ZAZ_flashlib_to_pc	finger.c	/^int ZAZ_flashlib_to_pc(int BufferID,int Finger_Num)$/;"	f
+__FILE	Retarget.c	/^struct __FILE { int handle; \/* Add whatever you need here *\/ };$/;"	s	file:
+__FINGER_H	finger.h	2;"	d
+__SERIAL_H	Serial.h	12;"	d
+__stderr_name	Retarget.c	/^const char __stderr_name[] = "STDERR";$/;"	v
+__stdin	Retarget.c	/^FILE __stdin;$/;"	v
+__stdin_name	Retarget.c	/^const char __stdin_name[]  = "STDIN";$/;"	v
+__stdout	Retarget.c	/^FILE __stdout;$/;"	v
+__stdout_name	Retarget.c	/^const char __stdout_name[] = "STDOUT";$/;"	v
+_sys_exit	Retarget.c	/^void _sys_exit (int return_code) {$/;"	f
+_ttywrch	Retarget.c	/^void _ttywrch (int ch) {$/;"	f
+fgetc	Retarget.c	/^int fgetc (FILE *f)$/;"	f
+fputc	Retarget.c	/^int fputc (int c,FILE *f)$/;"	f
+getkey1	Retarget.c	/^int getkey1 (void) {$/;"	f
+getkey2	Retarget.c	/^int getkey2 (void) {$/;"	f
+getkey3	Retarget.c	/^int getkey3 (void) {$/;"	f
+handle	Retarget.c	/^struct __FILE { int handle; \/* Add whatever you need here *\/ };$/;"	m	struct:__FILE	file:
+main	main.c	/^int main(void) $/;"	f
+sendchar1	Retarget.c	/^int sendchar1 (int c) {$/;"	f
+sendchar2	Retarget.c	/^int sendchar2 (int c) {$/;"	f
+sendchar3	Retarget.c	/^int sendchar3 (int c) {$/;"	f
