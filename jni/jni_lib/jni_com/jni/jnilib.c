@@ -22,6 +22,14 @@ typedef struct tag_encrypteddata{
 	char data[1024*30];
 }encrypteddata;
 
+char databuf[13];
+char data[13];
+
+int i;
+int readcount= 0;
+int readleng = 0;
+
+
 
 int open_port(char * dev)
 {
@@ -178,15 +186,15 @@ char*   Jstring2CStr(JNIEnv*   env,   jstring   jstr)
 	jboolean iscopy;
 	const char *path_utf = (*env)->GetStringUTFChars(env, path, &iscopy);
 	fd = open_port(path_utf);
-	__android_log_print(ANDROID_LOG_INFO, "Acanoe", "dev is %s, fd is %d", path_utf,fd);
+	__android_log_print(ANDROID_LOG_INFO, "Jni", "dev is %s, fd is %d", path_utf,fd);
 	if (fd < 0) 
 	{
-		__android_log_print(ANDROID_LOG_INFO, "Acanoe", "open dev error");
+		__android_log_print(ANDROID_LOG_INFO, "Jni", "open dev error");
 		return OPEN_DEV;
 	}
 	if (init_port(fd, baudrate) < 0)
 	{
-		__android_log_print(ANDROID_LOG_INFO, "Acanoe", "set baudrate error");
+		__android_log_print(ANDROID_LOG_INFO, "Jni", "set baudrate error");
 		return SET_BAU;
 	}
 
@@ -221,23 +229,93 @@ Java_com_example_jnitest_Jnilib_readfile( JNIEnv* env,
 	int i;
 	char* p =  Jstring2CStr(env,jstr);
 
-	//	__android_log_print(ANDROID_LOG_INFO, "Acanoe", argv);
+	//	__android_log_print(ANDROID_LOG_INFO, "Jni", argv);
 
 	//	stream = fopen("/mnt/sdcard/test.file","r");
 	stream = fopen(p,"r");
 	if(!stream)
-		__android_log_print(ANDROID_LOG_INFO, "Acanoe", "fopen file error");
+		__android_log_print(ANDROID_LOG_INFO, "Jni", "fopen file error");
 
 	fread(s,len,1,stream);
 	fclose(stream);
 
 	s[ len - 1] = '\0';
 
-	__android_log_print(ANDROID_LOG_INFO, "Acanoe", "Java -- > C JNI :read str = %s",s);
+	__android_log_print(ANDROID_LOG_INFO, "Jni", "Java -- > C JNI :read str = %s",s);
 	usleep(500);
 	//	free(s);
 	return (*env)->NewStringUTF(env,s);
 }
+
+
+
+
+jstring Java_com_example_jnitest_Jnilib_read( JNIEnv* env,jobject thiz ,jint fds,jint len)
+{
+	__android_log_print(ANDROID_LOG_INFO, "Jni", "Read");
+	int times = 0;
+
+	memset(databuf,0,13);
+	memset(data,0,13);
+
+
+	while(1)
+	{
+		times ++;
+		for(i = 0; i < 13; i++)
+		{
+			readleng = read(fds,databuf + i, 1);
+			__android_log_print(ANDROID_LOG_INFO, "Jni", "databuf %d ,%x",i,databuf[i]);
+			if(databuf[i] == 0x88)
+			{
+				i = -1;
+				__android_log_print(ANDROID_LOG_INFO, "Jni", "times-------------------------------- %d",times);
+			}
+		}
+
+			/*
+			   memset(databuf,0,13);
+
+			   readleng = read(fds,&databuf[0], 1);
+
+			   if(readleng >  0)
+			   {
+			   if(databuf[0] == 0x88)
+			   {
+			   for(i = 1; i < 13; i++)
+			   {
+			   readleng = read(fds,databuf + i, 1);
+			   if(readleng <= 0)
+			   {
+			   __android_log_print(ANDROID_LOG_INFO, "Jni", "return NULL");
+			   break;
+			   }
+
+			   }
+			   } else {
+			   __android_log_print(ANDROID_LOG_INFO, "Jni", "not get 0x88, get buf %x",databuf[0]);
+			   continue;
+			   }
+
+			   } else {
+			   __android_log_print(ANDROID_LOG_INFO, "Jni", "readleng error continue");
+			   continue;
+			   }
+
+			   for(i = 0;i < len; i ++)
+			   {
+			   __android_log_print(ANDROID_LOG_INFO, "Jni", "The source data is %x",databuf[i]);
+			   sprintf(data, "%s%02x",data,databuf[i]);
+			   }
+			   */
+
+			//		return (*env)->NewStringUTF(env,data);
+	}
+}
+
+
+
+
 jstring  Java_com_example_jnitest_Jnilib_readgps( JNIEnv* env,jobject thiz ,jint fds,jint len)
 {
 	return readgps(env,fds,len);
@@ -246,6 +324,7 @@ jstring  Java_com_example_jnitest_Jnilib_readgps( JNIEnv* env,jobject thiz ,jint
 jstring  Java_com_example_jnitest_Jnilib_readiccard( JNIEnv* env,jobject thiz ,jint fds)
 {
 	return readiccard(env,fds);
+
 }
 
 char* D3dDes_Decrypt(char *from, unsigned int len, char *key)
@@ -255,7 +334,7 @@ char* D3dDes_Decrypt(char *from, unsigned int len, char *key)
 	length = DESede_Decrypt(tmp,from,len,key);
 	if(length <= 0){
 		free(tmp);
-		__android_log_print(ANDROID_LOG_INFO, "Acanoe", "length <= 0");
+		__android_log_print(ANDROID_LOG_INFO, "Jni", "length <= 0");
 		tmp = NULL;
 		return NULL;
 	}
@@ -265,22 +344,23 @@ char* D3dDes_Decrypt(char *from, unsigned int len, char *key)
 	tmp = NULL;
 	return ret;
 }
-jstring  Java_com_example_jnitest_Jnilib_d3dtest( JNIEnv* env,jobject thiz, jbyteArray icid) 
+
+jstring  Java_com_example_jnitest_Jnilib_d3dtest( JNIEnv* env,jobject thiz, jbyteArray icid)  //  ¼ÓÃÜ
 {
 
-	__android_log_print(ANDROID_LOG_INFO, "Acanoe", "Encrypt");
+	__android_log_print(ANDROID_LOG_INFO, "Jni", "Encrypt");
 	char d3ddata[100];
 	memset(d3ddata, 0,100);
 	//jsize len = (*env)->GetArrayLength(env, nums);
 	char *data = (*env)->GetByteArrayElements(env, icid, 0);
-	__android_log_print(ANDROID_LOG_INFO, "Acanoe", "The source data is %s",data);
+	__android_log_print(ANDROID_LOG_INFO, "Jni", "The source data is %s",data);
 	DESede_Encrypt(d3ddata,data,6,"Itc_Ymtk703_YmtkItc_Ymtk");
 
 	char* tmp = D3dDes_Decrypt(d3ddata,8,"Itc_Ymtk703_YmtkItc_Ymtk");
 	if(!tmp){
-		__android_log_print(ANDROID_LOG_INFO, "Acanoe", "Java -- > C JNI :d3d error");
+		__android_log_print(ANDROID_LOG_INFO, "Jni", "Java -- > C JNI :d3d error");
 	}else {
-		__android_log_print(ANDROID_LOG_INFO, "Acanoe", "Get data is %s",tmp);
+		__android_log_print(ANDROID_LOG_INFO, "Jni", "Get data is %s",tmp);
 	}
 	return (*env)->NewStringUTF(env,tmp);
 }
@@ -288,12 +368,13 @@ jstring  Java_com_example_jnitest_Jnilib_d3dtest( JNIEnv* env,jobject thiz, jbyt
 jbyteArray  Java_com_example_jnitest_Jnilib_ItcEncrypt( JNIEnv* env,jobject thiz, jbyteArray icid, jint len) 
 {
 
-	__android_log_print(ANDROID_LOG_INFO, "Acanoe", "Encrypt");
+	__android_log_print(ANDROID_LOG_INFO, "Jni", "Encrypt");
 	char d3ddata[100];
 	char *data = (*env)->GetByteArrayElements(env, icid, 0);
 
-	__android_log_print(ANDROID_LOG_INFO, "Acanoe", "The source data is %s",data);
+	__android_log_print(ANDROID_LOG_INFO, "Jni", "The source data is %s",data);
 	DESede_Encrypt(d3ddata,data,6,"Itc_Ymtk703_YmtkItc_Ymtk");
+
 	jbyteArray rtnbytes = (*env)->NewByteArray(env,(jsize)strlen(d3ddata)); 
 	(*env)->SetByteArrayRegion(env,rtnbytes,0,(jsize)strlen(d3ddata),(jbyte*)d3ddata); 
 	return rtnbytes;
@@ -301,15 +382,15 @@ jbyteArray  Java_com_example_jnitest_Jnilib_ItcEncrypt( JNIEnv* env,jobject thiz
 
 jstring  Java_com_example_jnitest_Jnilib_ItcDecrypt( JNIEnv* env,jobject thiz, jbyteArray icid, jint len)
 {
-	__android_log_print(ANDROID_LOG_INFO, "Acanoe", "Dectypt");
+	__android_log_print(ANDROID_LOG_INFO, "Jni", "Dectypt");
 	char *d3ddata = (*env)->GetByteArrayElements(env, icid, 0);
 
 
 	char* tmp = D3dDes_Decrypt(d3ddata,8,"Itc_Ymtk703_YmtkItc_Ymtk");
 	if(!tmp){
-		__android_log_print(ANDROID_LOG_INFO, "Acanoe", "Java -- > C JNI :d3d error");
+		__android_log_print(ANDROID_LOG_INFO, "Jni", "Java -- > C JNI :d3d error");
 	}else {
-		__android_log_print(ANDROID_LOG_INFO, "Acanoe", "Get data is %s",tmp);
+		__android_log_print(ANDROID_LOG_INFO, "Jni", "Get data is %s",tmp);
 	}
 	return (*env)->NewStringUTF(env,tmp);
 }

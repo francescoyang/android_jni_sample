@@ -7,8 +7,10 @@
 APPMAXNU	jni/fileinfo.h	4;"	d
 BACKLOG	jni/sampleservice.c	23;"	d	file:
 BOOKMAXNU	jni/fileinfo.h	5;"	d
+CMD_ALL	jni/netpthread.c	30;"	d	file:
 CMD_APP	jni/netpthread.c	24;"	d	file:
 CMD_BOOK	jni/netpthread.c	26;"	d	file:
+CMD_CALLPHONE	jni/netpthread.c	29;"	d	file:
 CMD_IMAGE	jni/netpthread.c	21;"	d	file:
 CMD_MMS	jni/netpthread.c	25;"	d	file:
 CMD_MUSIC	jni/netpthread.c	23;"	d	file:
@@ -64,9 +66,10 @@ Java_com_acanoe_appmanager_Appmanager_appmanagerinit	jni/appmanager.c	/^void Jav
 Java_com_acanoe_appmanager_Appmanager_exitprograme	jni/exitprograme.c	/^	jint Java_com_acanoe_appmanager_Appmanager_exitprograme$/;"	f
 Java_com_acanoe_appmanager_Appmanager_getmmsdata	jni/netpthread.c	/^	jstring Java_com_acanoe_appmanager_Appmanager_getmmsdata$/;"	f
 Java_com_acanoe_appmanager_Appmanager_getmmsnumber	jni/netpthread.c	/^	jstring Java_com_acanoe_appmanager_Appmanager_getmmsnumber$/;"	f
+Java_com_acanoe_appmanager_Appmanager_getphonenumber	jni/netpthread.c	/^	jstring Java_com_acanoe_appmanager_Appmanager_getphonenumber$/;"	f
 Java_com_acanoe_appmanager_Appmanager_gotosend	jni/netpthread.c	/^	jint Java_com_acanoe_appmanager_Appmanager_gotosend$/;"	f
 Java_com_acanoe_appmanager_Appmanager_imageinfosend	jni/ctrlpthread.c	/^	void Java_com_acanoe_appmanager_Appmanager_imageinfosend$/;"	f
-Java_com_acanoe_appmanager_Appmanager_jnipthreadinit	jni/mainpthread.c	/^jint Java_com_acanoe_appmanager_Appmanager_jnipthreadinit$/;"	f
+Java_com_acanoe_appmanager_Appmanager_jnipthreadinit	jni/netpthread.c	/^jint Java_com_acanoe_appmanager_Appmanager_jnipthreadinit$/;"	f
 Java_com_acanoe_appmanager_Appmanager_s	jni/sampleservice.c	/^jint Java_com_acanoe_appmanager_Appmanager_s$/;"	f
 Java_com_acanoe_appmanager_Appmanager_setappinfo	jni/appinfo.c	/^jint Java_com_acanoe_appmanager_Appmanager_setappinfo$/;"	f
 Java_com_acanoe_appmanager_Appmanager_setbookinfo	jni/bookinfo.c	/^jint Java_com_acanoe_appmanager_Appmanager_setbookinfo$/;"	f
@@ -192,6 +195,7 @@ c_addr	jni/sockserver.h	/^	struct sockaddr_in c_addr;$/;"	m	struct:dtmsg	typeref
 c_addr	jni/test/sockserver.h	/^	struct sockaddr_in c_addr;$/;"	m	struct:dtmsg	typeref:struct:dtmsg::sockaddr_in
 c_addrsize	jni/sockserver.h	/^	socklen_t c_addrsize;$/;"	m	struct:dtmsg
 c_addrsize	jni/test/sockserver.h	/^	socklen_t c_addrsize;$/;"	m	struct:dtmsg
+callphone	jni/fileinfo.h	/^char callphone[18];$/;"	v
 cfd	jni/sockserver.h	/^	int cfd;$/;"	m	struct:dtmsg
 cfd	jni/test/sockserver.h	/^	int cfd;$/;"	m	struct:dtmsg
 checksum	jni/putpackctrl.c	/^static unsigned  char checksum(char *data, int len)$/;"	f	file:
@@ -352,7 +356,6 @@ sig_start	jni/netpthread.c	/^char sig_start[0];$/;"	v
 sign	jni/service.c	/^	volatile enum netsyncsign sign;$/;"	m	struct:__netcmd	typeref:enum:__netcmd::netsyncsign	file:
 sleng	jni/service.c	/^	volatile int sleng;$/;"	m	struct:__netcmd	file:
 sock_pthread	jni/netpthread.c	/^void* sock_pthread(void* arg) $/;"	f
-sock_pthread_init	jni/netpthread.c	/^int sock_pthread_init()$/;"	f
 sockfd	jni/netpthread.c	/^int sockfd,new_fd;$/;"	v
 sockfd	jni/sampleservice.c	/^int sockfd,new_fd;$/;"	v
 sockfd	jni/service.c	/^int sockfd,new_fd;$/;"	v

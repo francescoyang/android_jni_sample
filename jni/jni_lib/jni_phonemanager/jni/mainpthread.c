@@ -31,7 +31,7 @@ void* main_pthread(void* arg)
 		usleep(500000);
 	}
 }
-
+/*
 jint Java_com_acanoe_appmanager_Appmanager_jnipthreadinit
 (JNIEnv *env, jclass thiz)
 {
@@ -49,3 +49,4 @@ jint Java_com_acanoe_appmanager_Appmanager_jnipthreadinit
 
 	return 0;
 }
+*/

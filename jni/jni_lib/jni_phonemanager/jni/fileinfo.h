@@ -93,6 +93,7 @@ typedef struct __allbookinfo{
 }allbookinfo_t;
 
 
+char callphone[18];
 
 media_t imageinfo;
 media_t videoinfo;

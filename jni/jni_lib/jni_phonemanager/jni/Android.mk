@@ -33,10 +33,10 @@ videoinfo.c \
 sampleservice.c  \
 sockserver.c \
 netpthread.c \
-mainpthread.c  \
 ctrlpthread.c \
 storage.c	\
 exitprograme.c
+#mainpthread.c  \
 #service.c 
 
 include $(BUILD_SHARED_LIBRARY)

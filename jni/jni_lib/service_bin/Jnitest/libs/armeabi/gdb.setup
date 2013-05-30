@@ -1,0 +1,2 @@
+set solib-search-path /home/acanoe/android-ndk-r5/jni_pro/obj/local/armeabi
+directory /home/acanoe/android-ndk-r5/platforms/android-8/arch-arm/usr/include /home/acanoe/android-ndk-r5/jni_pro/jni/include /home/acanoe/android-ndk-r5/jni_pro/jni /home/acanoe/android-ndk-r5/sources/cxx-stl/system

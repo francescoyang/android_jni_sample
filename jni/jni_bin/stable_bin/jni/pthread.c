@@ -14,10 +14,9 @@
 #include <android/log.h>
 
 static const char *TAG="Acanoe";
+int readcount= 0;
+int readleng = 0;
 
-//#define LOGI(fmt, args...) __android_log_print(ANDROID_LOG_INFO,  TAG, fmt, ##args)
-//#define LOGD(fmt, args...) __android_log_print(ANDROID_LOG_DEBUG, TAG, fmt, ##args)
-//#define LOGE(fmt, args...) __android_log_print(ANDROID_LOG_ERROR, TAG, fmt, ##args)
 
 pthread_mutex_t mutex;
 pthread_cond_t  c1cond;
@@ -27,7 +26,19 @@ pthread_cond_t  c3cond;
 int times = 0, ret = 0;
 int fd1 = 0, fd2 = 0, fd3 = 0;
 int time1 = 0,time2 = 0,time3= 0;
-char read_buf[10];
+char read_buf[13];
+
+unsigned  char checksum(char *data, int len)
+{
+	unsigned short sum = 0;
+	int i;
+
+	for (i = 0; i < len; i++) {
+		sum ^= data[i];
+	}
+
+	return (sum & 0xff);
+}
 
 int open_port(char * dev)
 {
@@ -68,13 +79,15 @@ int init_port(int fd,int baud_rate)
 	//------------------- 设置为无软件/硬件控制流 ------------------
 	option.c_cflag &= ~(CRTSCTS);
 
-	option.c_iflag &= ~(IXON | INLCR | ICRNL | IGNCR | IUCLC);
+//	option.c_iflag &= ~(IXON | INLCR | ICRNL | IGNCR | IUCLC);
 
+	option.c_iflag &= ~(ICRNL|IGNCR);
 	//------------------ 设置输出模式为非预处理 ------------------
 	option.c_oflag &= ~OPOST;
 
 	//------------------ 设置输入为非格式化输入 ------------------
-	option.c_lflag &= ~(ICANON | ECHO | ECHOE | ISIG);
+//	option.c_lflag &= ~(ICANON | ECHO | ECHOE | ISIG);
+	option.c_lflag &= ~(ICANON| ISIG);
 
 
 	//------------------ 所读最小字符数 ------------------
@@ -166,7 +179,7 @@ void * child1(void *arg)
 
 		write(fd1,"000000000",9);
 
-		memset(read_buf,0,10);
+		memset(read_buf,0,13);
 		read(fd1,read_buf, 9); 
 		printf("get read_buf %s time1 = %d\n",read_buf,time1);
 
@@ -240,73 +253,73 @@ int main(void)
 		return -1;
 	}
 
-	if (init_port(fd1, 115200) < 0)
+	if (init_port(fd1, 9600) < 0)
 	{
 		printf("set baudrate error");
 		return -2;
 	}
-
+	/*
 	///////////////////////////////////////////////////
 	fd2 = open_port("/dev/ttySAC1");
 	if (fd2 < 0) 
 	{
-		printf("open error\n");
-		return -1;
+	printf("open error\n");
+	return -1;
 	}
 	if (init_port(fd2, 115200) < 0)
 	{
-		printf("init error\n");
-		return -2;
+	printf("init error\n");
+	return -2;
 	}
 
 	///////////////////////////////////////////////////
 	fd3 = open_port("/dev/ttySAC2");
 	if (fd3 < 0) 
 	{
-		printf("open error\n");
-		return -1;
+	printf("open error\n");
+	return -1;
 	}
 	if (init_port(fd3, 115200) < 0)
 	{
-		printf("init error\n");
-		return -2;
+	printf("init error\n");
+	return -2;
 	}
+	*/
+	int i = 0; 
+	char check = 0;
+	int times = 0;
+
+	char databuf[13];
+	memset(databuf,0,13);
+
+	//	sleep(10);
 
 	while(1)
 	{
-		time1 ++;
-
-		printf("start write\n");
-#if 1
-		memset(read_buf,0,10);
-
-		ret = read(fd1,read_buf, 9); 
-		if(ret > 0)
+		printf("read start\n");
+		times ++;
+		for(i = 0; i < 13; i++)
 		{
-			printf("get read_buf %s time1 = %d\n",read_buf,time1);
-			write(fd1,read_buf,ret);
+			read(fd1,databuf + i, 1);
+			printf("%x ",databuf[i]);
+			//			if(databuf[i] == 0x88 && i != 0 && i != 1 && i != 2 && i != 3)
+			if(databuf[i] == 0x88)
+			{
+				i = -1;
+				printf("\n");
+				//				i = 15;
+			}
 		}
+		printf("times-------------------------------- %d\n",times);
+		/*
+		   if(databuf[12] == 0x88)
+		   {
+		   printf("\n");
+		   }
+		   */
 
-//		sleep(1);
-#endif
 
-#if 0
-		write(fd2,"111111111",9);
-		memset(read_buf,0,10);
-		ret = read(fd2,read_buf, 9); 
-		if(ret > 0)
-			printf("get read_buf %s time1 = %d\n",read_buf,time1);
-//		sleep(1);
-#endif
 
-#if 0
-		write(fd3,"000000000",9);
-		memset(read_buf,0,10);
-		ret = read(fd3,read_buf, 9); 
-		if(ret > 0)
-			printf("get read_buf %s time1 = %d\n",read_buf,time1);
-//		sleep(1);
-#endif
 	}
 	/*
 	   pthread_cond_init(&c1cond,NULL);

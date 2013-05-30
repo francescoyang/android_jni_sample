@@ -676,7 +676,7 @@ unsigned int DESede_Encrypt(char *to, char *from, unsigned int len, char *key)
 	return len;
 }
 
-unsigned int DESede_Decrypt(char *to, char *from, unsigned int len, char *key)
+unsigned int DESede_Decrypt(char *to, char *from, unsigned int len, char *key) // 
 {
 	unsigned char *p, *q;
 	SetKey(key,DE1);

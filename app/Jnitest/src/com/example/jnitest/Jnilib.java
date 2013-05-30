@@ -87,9 +87,14 @@ public class Jnilib extends Activity {
             	public void onClick(View v) {
               
             	findViewById(R.id.button2).setBackgroundColor(Color.RED);
-            	Log.v("acanoe", "readgps");
-            	gpsfd = open("/dev/s3c2410_serial1",9600);
-            	mtxtPeri.setText(readgps(gpsfd,20));  
+            	Log.v("acanoe", "read");
+//            	gpsfd = open("/dev/s3c2410_serial1",9600);
+//            	mtxtPeri.setText(readgps(gpsfd,20));  
+//            	close(gpsfd);
+            	
+            	gpsfd = open("/dev/ttySAC0",9600);
+
+            	Log.v("acanoe", "read" + read(gpsfd,13));
             	close(gpsfd);
             }
     });
@@ -165,6 +170,7 @@ public class Jnilib extends Activity {
 	public native  int rematchfinger(int fgfd);	
 	public native  String readiccard(int icfd);
 	public native  String readgps(int gpsfd, int len);
+	public native  String read(int gpsfd,int len);
 	
 // open close		
     public native int  open(String dev,int baudrate);

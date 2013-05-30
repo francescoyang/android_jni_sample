@@ -26,6 +26,8 @@ char sig_start[0];
 #define CMD_BOOK   6
 #define CMD_STORAGE 7
 #define CMD_SENDMESSAGE 8
+#define CMD_CALLPHONE	9
+#define CMD_ALL			10
 
 char data[1024*200];
 char getbuf[1024 * 2] = {0};
@@ -134,10 +136,45 @@ send_pack()
 			SIZE = 0;
 			SEND_CMD = -1;
 			break;
+		case CMD_CALLPHONE:
+
+			LOGD("CMD_CALLPHONE: send");
+			send_sigstart();
+			SEND_CMD = CMD_CALLPHONE;
+			ret = send(new_fd,&SEND_CMD,1,0);
+			SIZE = 0;
+			SEND_CMD = -1;
+			break;
+
+		case CMD_ALL:
+
+			LOGD("CMD_SENDMESSAGE: send");
+			send_sigstart();
+			SEND_CMD = CMD_ALL;
+			ret = send(new_fd,&SEND_CMD,1,0);
+
+			SIZE = sizeof(storageinfo_t);
+			ret = send(new_fd,&SIZE,4,0);
+			ret = send(new_fd,&storageinfo,SIZE,0);		// send storageinfo
+
+			SIZE = sizeof(allmmsinfo_t);
+			ret = send(new_fd,&SIZE,4,0);
+			ret = send(new_fd,&mmsinfo,SIZE,0);			// send mmsifo
+
+			SIZE = sizeof(allbookinfo_t);
+			ret = send(new_fd,&SIZE,4,0);
+			ret = send(new_fd,&bookinfo,SIZE,0);		// send bookinfo
+
+			SIZE = sizeof(allappinfo_t);
+			ret = send(new_fd,&SIZE,4,0);
+			ret = send(new_fd,&appinfo,sizeof(appinfo),0);		// send appinfo
+
+			SIZE = 0;
+			SEND_CMD = -1;
+			break;
 
 		case CMD_SENDMESSAGE:
-
-			LOGD("CMD_STORAGE: send");
+			LOGD("CMD_SENDMESSAGE: send");
 			send_sigstart();
 			SEND_CMD = CMD_SENDMESSAGE;
 			ret = send(new_fd,&SEND_CMD,1,0);
@@ -147,8 +184,6 @@ send_pack()
 			SIZE = 0;
 			SEND_CMD = -1;
 			break;
-
-
 		default :
 			break;
 
@@ -158,6 +193,7 @@ send_pack()
 recv_pack()
 {
 	int ret = 0;
+	char testbuf[4];
 
 	tout.tv_sec = 3;
 	tout.tv_usec = 0;
@@ -179,31 +215,52 @@ recv_pack()
 	switch(RECV_CMD)
 	{
 		case CMD_IMAGE:
+			memset(&imageinfo, 0, sizeof(media_t));
 			REGET = CMD_IMAGE;
 			LOGD("get RECV_CMD CMD_IMAGE");
 			RECV_CMD = 0;
 			break;
 
 		case CMD_APP:
+			memset(&appinfo, 0, sizeof(allappinfo_t));
 			REGET = CMD_APP;
 			LOGD("get RECV_CMD CMD_APP");
 			RECV_CMD = 0;
 			break;
 		case CMD_MMS:
+			memset(&mmsinfo, 0, sizeof(allmmsinfo_t));
 			REGET = CMD_MMS;
 			LOGD("get RECV_CMD CMD_MMS");
 			RECV_CMD = 0;
 			break;
 
 		case CMD_BOOK:
+			memset(&bookinfo, 0, sizeof(allbookinfo_t));
 			REGET = CMD_BOOK;
 			LOGD("get RECV_CMD CMD_BOOK");
 			RECV_CMD = 0;
 			break;
 
+		case CMD_CALLPHONE:
+
+			ret = dtcmr_recv_timeout(sockfd, testbuf, 4,&tout);
+			memcpy(&recv_leng,testbuf,4);
+			LOGD("recv_leng = %d",recv_leng);
+
+			if(ret < 0){
+				printf("recv error");
+			}
+			memset(getbuf,0, 2048);
+
+			ret = dtcmr_recv_timeout(sockfd, getbuf, recv_leng,&tout);
+			memcpy(callphone,getbuf,18);
+			REGET = CMD_CALLPHONE;
+			LOGD("get RECV_CMD CMD_CALLPHONE");
+			RECV_CMD = 0;
+			break;
+
 		case CMD_SENDMESSAGE :
 			LOGD("get RECV_CMD CMD_SENDMESSAGE");
-			char testbuf[4];
 
 			ret = dtcmr_recv_timeout(sockfd, testbuf, 4,&tout);
 			memcpy(&recv_leng,testbuf,4);
@@ -249,7 +306,6 @@ void* sock_pthread(void* arg)
 	}
 	//	SEND_CMD = CMD_STORAGE;
 	seminit();
-
 	send_pthread_init();
 
 	while(1)
@@ -280,7 +336,7 @@ void send_sigstart()
 void* send_pthread(void* arg) 
 {
 	//	send_pack();
-	REGET = 7;			// init send storage info;
+	REGET = CMD_ALL;			// init send allinfo info;
 	while(1)
 	{
 		pthread_mutex_lock(&net_mutex);
@@ -310,7 +366,9 @@ int send_pthread_init()
 }
 
 
-int sock_pthread_init()
+//int sock_pthread_init()
+jint Java_com_acanoe_appmanager_Appmanager_jnipthreadinit
+(JNIEnv *env, jclass thiz)
 {
 
 	pthread_cond_init(&netsendcond,NULL);
@@ -340,6 +398,7 @@ void close_socket()
 {
 	close(sockfd);
 	close(new_fd);
+	pthread_exit(NULL);
 }
 
 
@@ -360,6 +419,13 @@ void close_socket()
 {
 	return (*env)->NewStringUTF(env,sendmessage.mmsdata);
 
+}
+
+	jstring Java_com_acanoe_appmanager_Appmanager_getphonenumber
+(JNIEnv *env, jclass thiz)
+{
+
+	return (*env)->NewStringUTF(env,callphone);
 }
 
 	jstring Java_com_acanoe_appmanager_Appmanager_getmmsnumber
