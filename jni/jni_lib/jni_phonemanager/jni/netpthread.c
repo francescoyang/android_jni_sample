@@ -80,6 +80,24 @@ send_pack()
 
 	switch(SEND_CMD)
 	{
+		case CMD_VIDEO:
+			send_sigstart();
+			SIZE = sizeof(media_t);
+			ret = send(new_fd,&SIZE,4,0);
+			ret = send(new_fd,&videoinfo,sizeof(videoinfo),0);
+			SIZE = 0;
+			SEND_CMD = -1;
+			break;
+
+		case CMD_MUSIC:
+			send_sigstart();
+			SIZE = sizeof(media_t);
+			ret = send(new_fd,&SIZE,4,0);
+			ret = send(new_fd,&musicinfo,sizeof(musicinfo),0);
+			SIZE = 0;
+			SEND_CMD = -1;
+			break;
+
 		case CMD_IMAGE:
 			send_sigstart();
 			SIZE = sizeof(media_t);
@@ -169,6 +187,11 @@ send_pack()
 			ret = send(new_fd,&SIZE,4,0);
 			ret = send(new_fd,&appinfo,sizeof(appinfo),0);		// send appinfo
 
+
+			SIZE = sizeof(media_t);
+			ret = send(new_fd,&SIZE,4,0);
+			ret = send(new_fd,&imageinfo,sizeof(media_t),0);		// send imageinfo 
+
 			SIZE = 0;
 			SEND_CMD = -1;
 			break;
@@ -214,6 +237,13 @@ recv_pack()
 	LOGD("RECV_CMD  = %x",RECV_CMD);
 	switch(RECV_CMD)
 	{
+		case CMD_MUSIC:
+			memset(&imageinfo, 0, sizeof(media_t));
+			REGET = CMD_IMAGE;
+			LOGD("get RECV_CMD CMD_IMAGE");
+			RECV_CMD = 0;
+			break;
+
 		case CMD_IMAGE:
 			memset(&imageinfo, 0, sizeof(media_t));
 			REGET = CMD_IMAGE;
@@ -336,7 +366,7 @@ void send_sigstart()
 void* send_pthread(void* arg) 
 {
 	//	send_pack();
-	REGET = CMD_ALL;			// init send allinfo info;
+//	REGET = CMD_ALL;			// init send allinfo info;
 	while(1)
 	{
 		pthread_mutex_lock(&net_mutex);
